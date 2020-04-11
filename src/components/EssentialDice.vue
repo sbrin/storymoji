@@ -28,5 +28,11 @@ export default {
   border-radius: 10px;
   font-size: 60px;
   box-sizing: border-box;
+  cursor: pointer;
+  @media screen and (max-width: 640px) {
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+  }
 }
 </style>

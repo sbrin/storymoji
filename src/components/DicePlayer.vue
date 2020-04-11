@@ -1,13 +1,23 @@
 <template>
   <q-card flat bordered class="flex dice-wrapper q-ma-md">
-    <!-- <q-btn color="grey-4" flat round icon="fas fa-dice" ></q-btn>
-    <q-btn color="grey-2" text-color="black" round flat :disable="true">{{ index + 1 }}</q-btn>-->
-    <q-btn color="grey-7" round flat icon="more_vert" class="dice-wrapper__button">
+    <q-btn
+      color="grey-2"
+      text-color="black"
+      round
+      flat
+      :disable="true"
+      class="dice-wrapper__number"
+      >{{ index + 1 }}</q-btn
+    >
+    <q-btn
+      color="grey-7"
+      round
+      flat
+      icon="more_vert"
+      class="dice-wrapper__button"
+    >
       <q-menu cover auto-close>
         <q-list>
-          <!-- <q-item clickable>
-            <q-item-section @click="$emit('removePlayer')">Remove player</q-item-section>
-          </q-item>-->
           <q-item clickable>
             <q-item-section @click="rollTheDice">Roll the dice</q-item-section>
           </q-item>
@@ -30,7 +40,7 @@
 
 <script>
 import EssentialDice from "@/components/EssentialDice.vue";
-import emojis from "@/assets/emoji.json";
+import emojis from "@/assets/emoji_filtered.json";
 
 let EMOJIS = [...emojis];
 let EMOJIS_USED = [];
