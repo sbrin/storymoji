@@ -13,10 +13,7 @@
         <h2 class="q-mb-sm">StoryMoji</h2>
         <h4 class="q-mt-sm">Multiplayer</h4>
 
-        <amplify-authenticator></amplify-authenticator>
-        <!-- <amplify-sign-in
-          :signInConfig="{ username: 'username' }"
-        ></amplify-sign-in> -->
+        <amplify-sign-in v-if="!state.isAuthorized" :signInConfig="{ username: 'username' }"></amplify-sign-in>
 
         <div class="q-pb-md flex column content-center">
           <div class="q-gutter-md" style="min-width: 320px">
@@ -57,19 +54,9 @@
           </div>
         </div>
         <div class="q-gutter-md">
-          <q-btn color="primary" size="lg" @click="started = true"
-            >Start a new game</q-btn
-          >
-          <div class="text-body1">
-            or
-          </div>
-          <q-btn
-            flat
-            dense
-            color="primary"
-            label="Join existing one"
-            class="q-mt-sm"
-          />
+          <q-btn color="primary" size="lg" @click="started = true">Start a new game</q-btn>
+          <div class="text-body1">or</div>
+          <q-btn flat dense color="primary" label="Join existing one" class="q-mt-sm" />
         </div>
       </template>
 
@@ -84,11 +71,9 @@
           ></DicePlayer>
         </div>
 
-        <q-footer elevated class="bg-grey-2 flex flex-center">
+        <q-footer bordered class="bg-grey-2 flex flex-center">
           <q-toolbar class="flex flex-center">
-            <q-btn color="blue" flat size="lg" @click="started = 0"
-              >New game</q-btn
-            >
+            <q-btn color="blue" flat size="lg" @click="startMultiplayer">New game</q-btn>
           </q-toolbar>
         </q-footer>
       </template>
@@ -98,6 +83,7 @@
 
 <script>
 import DicePlayer from "@/components/DicePlayer.vue";
+import state from "@/store/";
 
 export default {
   name: "PageIndex",
@@ -109,13 +95,15 @@ export default {
       run_id: 0,
       started: false,
       players: 3,
-      dice: 3
+      dice: 3,
+      state: state
     };
   },
   methods: {
     removePlayer(idx) {
       this.players -= 1;
-    }
+    },
+    startMultiplayer() {}
   }
 };
 </script>

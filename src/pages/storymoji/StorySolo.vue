@@ -66,11 +66,9 @@
           ></DicePlayer>
         </div>
 
-        <q-footer elevated class="bg-grey-2 flex flex-center">
+        <q-footer bordered class="bg-grey-2 flex flex-center">
           <q-toolbar class="flex flex-center">
-            <q-btn color="blue" flat size="lg" @click="started = 0"
-              >New game</q-btn
-            >
+            <q-btn color="blue" flat size="lg" @click="started = 0">New game</q-btn>
           </q-toolbar>
         </q-footer>
       </template>
