@@ -24,23 +24,28 @@ export default {
     AmplifyEventBus.$on("authState", e => {
       switch (e) {
         case "signUp":
+          break;
         // this.$router.push("/signup");
 
         case "signIn":
+          break;
         // this.$router.push("/login");
 
         case "signedIn":
+          break;
           this.$router.push("/");
           state.isAuthorized = true;
         case "confirmSignUp":
+          break;
         // this.$router.push("/signup_confirm");
 
         case "forgotPassword":
+          break;
         // this.$router.push("/login_forgot");
 
         default:
-          console.log(e);
       }
+      console.log(e);
     });
   },
   created() {

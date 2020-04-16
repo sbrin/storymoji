@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "storymoji",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authstorymoji3686568f",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
