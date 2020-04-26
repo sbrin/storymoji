@@ -14,7 +14,6 @@
 </template>
 
 <script>
-import DicePlayer from "@/components/DicePlayer.vue";
 import { AmplifyEventBus } from "aws-amplify-vue";
 
 export default {

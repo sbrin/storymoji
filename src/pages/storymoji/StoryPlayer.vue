@@ -21,6 +21,9 @@
           <q-item clickable>
             <q-item-section @click="rollTheDice">Roll the dice</q-item-section>
           </q-item>
+          <q-item clickable>
+            <q-item-section @click="$emit('removePlayer', id)">Remove player</q-item-section>
+          </q-item>
         </q-list>
       </q-menu>
     </q-btn>
@@ -28,18 +31,18 @@
     <q-separator dark />
 
     <q-card-section class="flex align-center justify-center text-center">
-      <EssentialDice
+      <StoryDice
         v-for="(dice, idx) in dice_set"
         :key="idx + cid"
         :data="dice"
         @replaceDice="replaceDice(idx)"
-      ></EssentialDice>
+      ></StoryDice>
     </q-card-section>
   </q-card>
 </template>
 
 <script>
-import EssentialDice from "@/components/EssentialDice.vue";
+import StoryDice from "./StoryDice.vue";
 import emojis from "@/assets/emoji_filtered.json";
 
 let EMOJIS = [...emojis];
@@ -48,9 +51,12 @@ let EMOJIS_USED = [];
 export default {
   name: "DiceWrapper",
   components: {
-    EssentialDice
+    StoryDice
   },
   props: {
+    id: {
+      type: String
+    },
     number: {
       type: Number
     },

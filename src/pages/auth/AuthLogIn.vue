@@ -14,7 +14,6 @@
 </template>
 
 <script>
-import DicePlayer from "@/components/DicePlayer.vue";
 
 export default {
   name: "AuthLogIn",

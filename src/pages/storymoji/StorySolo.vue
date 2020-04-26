@@ -57,13 +57,13 @@
 
       <template v-if="started">
         <div class="flex flex-center content-center fit">
-          <DicePlayer
+          <StoryPlayer
             v-for="(item, idx) in Array(players)"
             :key="idx + run_id"
             :number="dice"
             :index="idx"
             @removePlayer="removePlayer(idx)"
-          ></DicePlayer>
+          ></StoryPlayer>
         </div>
 
         <q-footer bordered class="bg-grey-2 flex flex-center">
@@ -77,12 +77,12 @@
 </template>
 
 <script>
-import DicePlayer from "@/components/DicePlayer.vue";
+import StoryPlayer from "./StoryPlayer.vue";
 
 export default {
   name: "PageIndex",
   components: {
-    DicePlayer
+    StoryPlayer
   },
   data() {
     return {
