@@ -76,6 +76,7 @@ export default {
       this.$emit("gameStarted");
       actions.onCreateGamePlayer().subscribe({
         next: data => {
+          this.getGame();
           console.log("onCreateGamePlayer", data);
         },
         error: error => {

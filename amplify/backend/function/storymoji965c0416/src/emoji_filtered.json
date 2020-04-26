@@ -1,0 +1,3781 @@
+[{
+  "codes": "1F600",
+  "char": "😀",
+  "name": "grinning face",
+  "category": "Smileys & Emotion (face-smiling)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-smiling"
+}, {
+  "codes": "1F923",
+  "char": "🤣",
+  "name": "rolling on the floor laughing",
+  "category": "Smileys & Emotion (face-smiling)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-smiling"
+}, {
+  "codes": "1F602",
+  "char": "😂",
+  "name": "face with tears of joy",
+  "category": "Smileys & Emotion (face-smiling)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-smiling"
+}, {
+  "codes": "1F60D",
+  "char": "😍",
+  "name": "smiling face with heart-eyes",
+  "category": "Smileys & Emotion (face-affection)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-affection"
+}, {
+  "codes": "1F929",
+  "char": "🤩",
+  "name": "star-struck",
+  "category": "Smileys & Emotion (face-affection)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-affection"
+}, {
+  "codes": "1F92D",
+  "char": "🤭",
+  "name": "face with hand over mouth",
+  "category": "Smileys & Emotion (face-hand)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-hand"
+}, {
+  "codes": "1F92B",
+  "char": "🤫",
+  "name": "shushing face",
+  "category": "Smileys & Emotion (face-hand)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-hand"
+}, {
+  "codes": "1F914",
+  "char": "🤔",
+  "name": "thinking face",
+  "category": "Smileys & Emotion (face-hand)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-hand"
+}, {
+  "codes": "1F910",
+  "char": "🤐",
+  "name": "zipper-mouth face",
+  "category": "Smileys & Emotion (face-neutral-skeptical)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-neutral-skeptical"
+}, {
+  "codes": "1F928",
+  "char": "🤨",
+  "name": "face with raised eyebrow",
+  "category": "Smileys & Emotion (face-neutral-skeptical)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-neutral-skeptical"
+}, {
+  "codes": "1F611",
+  "char": "😑",
+  "name": "expressionless face",
+  "category": "Smileys & Emotion (face-neutral-skeptical)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-neutral-skeptical"
+}, {
+  "codes": "1F614",
+  "char": "😔",
+  "name": "pensive face",
+  "category": "Smileys & Emotion (face-sleepy)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-sleepy"
+}, {
+  "codes": "1F634",
+  "char": "😴",
+  "name": "sleeping face",
+  "category": "Smileys & Emotion (face-sleepy)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-sleepy"
+}, {
+  "codes": "1F912",
+  "char": "🤒",
+  "name": "face with thermometer",
+  "category": "Smileys & Emotion (face-unwell)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-unwell"
+}, {
+  "codes": "1F915",
+  "char": "🤕",
+  "name": "face with head-bandage",
+  "category": "Smileys & Emotion (face-unwell)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-unwell"
+}, {
+  "codes": "1F922",
+  "char": "🤢",
+  "name": "nauseated face",
+  "category": "Smileys & Emotion (face-unwell)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-unwell"
+}, {
+  "codes": "1F92E",
+  "char": "🤮",
+  "name": "face vomiting",
+  "category": "Smileys & Emotion (face-unwell)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-unwell"
+}, {
+  "codes": "1F927",
+  "char": "🤧",
+  "name": "sneezing face",
+  "category": "Smileys & Emotion (face-unwell)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-unwell"
+}, {
+  "codes": "1F975",
+  "char": "🥵",
+  "name": "hot face",
+  "category": "Smileys & Emotion (face-unwell)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-unwell"
+}, {
+  "codes": "1F976",
+  "char": "🥶",
+  "name": "cold face",
+  "category": "Smileys & Emotion (face-unwell)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-unwell"
+}, {
+  "codes": "1F974",
+  "char": "🥴",
+  "name": "woozy face",
+  "category": "Smileys & Emotion (face-unwell)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-unwell"
+}, {
+  "codes": "1F92F",
+  "char": "🤯",
+  "name": "exploding head",
+  "category": "Smileys & Emotion (face-unwell)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-unwell"
+}, {
+  "codes": "1F973",
+  "char": "🥳",
+  "name": "partying face",
+  "category": "Smileys & Emotion (face-hat)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-hat"
+}, {
+  "codes": "1F60E",
+  "char": "😎",
+  "name": "smiling face with sunglasses",
+  "category": "Smileys & Emotion (face-glasses)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-glasses"
+}, {
+  "codes": "1F913",
+  "char": "🤓",
+  "name": "nerd face",
+  "category": "Smileys & Emotion (face-glasses)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-glasses"
+}, {
+  "codes": "1F9D0",
+  "char": "🧐",
+  "name": "face with monocle",
+  "category": "Smileys & Emotion (face-glasses)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-glasses"
+}, {
+  "codes": "1F61F",
+  "char": "😟",
+  "name": "worried face",
+  "category": "Smileys & Emotion (face-concerned)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-concerned"
+}, {
+  "codes": "1F641",
+  "char": "🙁",
+  "name": "slightly frowning face",
+  "category": "Smileys & Emotion (face-concerned)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-concerned"
+}, {
+  "codes": "1F633",
+  "char": "😳",
+  "name": "flushed face",
+  "category": "Smileys & Emotion (face-concerned)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-concerned"
+}, {
+  "codes": "1F62D",
+  "char": "😭",
+  "name": "loudly crying face",
+  "category": "Smileys & Emotion (face-concerned)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-concerned"
+}, {
+  "codes": "1F631",
+  "char": "😱",
+  "name": "face screaming in fear",
+  "category": "Smileys & Emotion (face-concerned)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-concerned"
+}, {
+  "codes": "1F621",
+  "char": "😡",
+  "name": "pouting face",
+  "category": "Smileys & Emotion (face-negative)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-negative"
+}, {
+  "codes": "1F608",
+  "char": "😈",
+  "name": "smiling face with horns",
+  "category": "Smileys & Emotion (face-negative)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-negative"
+}, {
+  "codes": "1F47F",
+  "char": "👿",
+  "name": "angry face with horns",
+  "category": "Smileys & Emotion (face-negative)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-negative"
+}, {
+  "codes": "2620",
+  "char": "☠",
+  "name": "skull and crossbones",
+  "category": "Smileys & Emotion (face-negative)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-negative"
+}, {
+  "codes": "1F4A9",
+  "char": "💩",
+  "name": "pile of poo",
+  "category": "Smileys & Emotion (face-costume)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-costume"
+}, {
+  "codes": "1F47B",
+  "char": "👻",
+  "name": "ghost",
+  "category": "Smileys & Emotion (face-costume)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-costume"
+}, {
+  "codes": "1F47D",
+  "char": "👽",
+  "name": "alien",
+  "category": "Smileys & Emotion (face-costume)",
+  "group": "Smileys & Emotion",
+  "subgroup": "face-costume"
+}, {
+  "codes": "1F648",
+  "char": "🙈",
+  "name": "see-no-evil monkey",
+  "category": "Smileys & Emotion (monkey-face)",
+  "group": "Smileys & Emotion",
+  "subgroup": "monkey-face"
+}, {
+  "codes": "1F649",
+  "char": "🙉",
+  "name": "hear-no-evil monkey",
+  "category": "Smileys & Emotion (monkey-face)",
+  "group": "Smileys & Emotion",
+  "subgroup": "monkey-face"
+}, {
+  "codes": "1F64A",
+  "char": "🙊",
+  "name": "speak-no-evil monkey",
+  "category": "Smileys & Emotion (monkey-face)",
+  "group": "Smileys & Emotion",
+  "subgroup": "monkey-face"
+}, {
+  "codes": "1F494",
+  "char": "💔",
+  "name": "broken heart",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "2764 FE0F",
+  "char": "❤️",
+  "name": "red heart",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F9E1",
+  "char": "🧡",
+  "name": "orange heart",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F49B",
+  "char": "💛",
+  "name": "yellow heart",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F49A",
+  "char": "💚",
+  "name": "green heart",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F499",
+  "char": "💙",
+  "name": "blue heart",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F49C",
+  "char": "💜",
+  "name": "purple heart",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F5A4",
+  "char": "🖤",
+  "name": "black heart",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F4AF",
+  "char": "💯",
+  "name": "hundred points",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F4A5",
+  "char": "💥",
+  "name": "collision",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F4A3",
+  "char": "💣",
+  "name": "bomb",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F4AC",
+  "char": "💬",
+  "name": "speech balloon",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F5E8",
+  "char": "🗨",
+  "name": "left speech bubble",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F5EF FE0F",
+  "char": "🗯️",
+  "name": "right anger bubble",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F5EF",
+  "char": "🗯",
+  "name": "right anger bubble",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F4AD",
+  "char": "💭",
+  "name": "thought balloon",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F4A4",
+  "char": "💤",
+  "name": "zzz",
+  "category": "Smileys & Emotion (emotion)",
+  "group": "Smileys & Emotion",
+  "subgroup": "emotion"
+}, {
+  "codes": "1F44B",
+  "char": "👋",
+  "name": "waving hand",
+  "category": "People & Body (hand-fingers-open)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-open"
+}, {
+  "codes": "1F91A",
+  "char": "🤚",
+  "name": "raised back of hand",
+  "category": "People & Body (hand-fingers-open)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-open"
+}, {
+  "codes": "1F590 FE0F",
+  "char": "🖐️",
+  "name": "hand with fingers splayed",
+  "category": "People & Body (hand-fingers-open)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-open"
+}, {
+  "codes": "1F590",
+  "char": "🖐",
+  "name": "hand with fingers splayed",
+  "category": "People & Body (hand-fingers-open)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-open"
+}, {
+  "codes": "1F596",
+  "char": "🖖",
+  "name": "vulcan salute",
+  "category": "People & Body (hand-fingers-open)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-open"
+}, {
+  "codes": "1F44C",
+  "char": "👌",
+  "name": "OK hand",
+  "category": "People & Body (hand-fingers-partial)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-partial"
+}, {
+  "codes": "270C FE0F",
+  "char": "✌️",
+  "name": "victory hand",
+  "category": "People & Body (hand-fingers-partial)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-partial"
+}, {
+  "codes": "1F91E",
+  "char": "🤞",
+  "name": "crossed fingers",
+  "category": "People & Body (hand-fingers-partial)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-partial"
+}, {
+  "codes": "1F918",
+  "char": "🤘",
+  "name": "sign of the horns",
+  "category": "People & Body (hand-fingers-partial)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-partial"
+}, {
+  "codes": "1F448",
+  "char": "👈",
+  "name": "backhand index pointing left",
+  "category": "People & Body (hand-single-finger)",
+  "group": "People & Body",
+  "subgroup": "hand-single-finger"
+}, {
+  "codes": "1F44D",
+  "char": "👍",
+  "name": "thumbs up",
+  "category": "People & Body (hand-fingers-closed)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-closed"
+}, {
+  "codes": "1F44E",
+  "char": "👎",
+  "name": "thumbs down",
+  "category": "People & Body (hand-fingers-closed)",
+  "group": "People & Body",
+  "subgroup": "hand-fingers-closed"
+}, {
+  "codes": "1F44F",
+  "char": "👏",
+  "name": "clapping hands",
+  "category": "People & Body (hands)",
+  "group": "People & Body",
+  "subgroup": "hands"
+}, {
+  "codes": "1F64F",
+  "char": "🙏",
+  "name": "folded hands",
+  "category": "People & Body (hands)",
+  "group": "People & Body",
+  "subgroup": "hands"
+}, {
+  "codes": "270D FE0F",
+  "char": "✍️",
+  "name": "writing hand",
+  "category": "People & Body (hand-prop)",
+  "group": "People & Body",
+  "subgroup": "hand-prop"
+}, {
+  "codes": "1F933",
+  "char": "🤳",
+  "name": "selfie",
+  "category": "People & Body (hand-prop)",
+  "group": "People & Body",
+  "subgroup": "hand-prop"
+}, {
+  "codes": "1F4AA 1F3FF",
+  "char": "💪🏿",
+  "name": "flexed biceps: dark skin tone",
+  "category": "People & Body (body-parts)",
+  "group": "People & Body",
+  "subgroup": "body-parts"
+}, {
+  "codes": "1F9E0",
+  "char": "🧠",
+  "name": "brain",
+  "category": "People & Body (body-parts)",
+  "group": "People & Body",
+  "subgroup": "body-parts"
+}, {
+  "codes": "1F9B7",
+  "char": "🦷",
+  "name": "tooth",
+  "category": "People & Body (body-parts)",
+  "group": "People & Body",
+  "subgroup": "body-parts"
+}, {
+  "codes": "1F9B4",
+  "char": "🦴",
+  "name": "bone",
+  "category": "People & Body (body-parts)",
+  "group": "People & Body",
+  "subgroup": "body-parts"
+}, {
+  "codes": "1F440",
+  "char": "👀",
+  "name": "eyes",
+  "category": "People & Body (body-parts)",
+  "group": "People & Body",
+  "subgroup": "body-parts"
+}, {
+  "codes": "1F441",
+  "char": "👁",
+  "name": "eye",
+  "category": "People & Body (body-parts)",
+  "group": "People & Body",
+  "subgroup": "body-parts"
+}, {
+  "codes": "1F445",
+  "char": "👅",
+  "name": "tongue",
+  "category": "People & Body (body-parts)",
+  "group": "People & Body",
+  "subgroup": "body-parts"
+}, {
+  "codes": "1F476",
+  "char": "👶",
+  "name": "baby",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F476 1F3FE",
+  "char": "👶🏾",
+  "name": "baby: medium-dark skin tone",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F466",
+  "char": "👦",
+  "name": "boy",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F467",
+  "char": "👧",
+  "name": "girl",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F9D1",
+  "char": "🧑",
+  "name": "person",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F471",
+  "char": "👱",
+  "name": "person: blond hair",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F468 1F3FE",
+  "char": "👨🏾",
+  "name": "man: medium-dark skin tone",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F469",
+  "char": "👩",
+  "name": "woman",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F469 1F3FC 200D 1F9B3",
+  "char": "👩🏼‍🦳",
+  "name": "woman: medium-light skin tone, white hair",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F471 1F3FD 200D 2642",
+  "char": "👱🏽‍♂",
+  "name": "man: medium skin tone, blond hair",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F9D3 1F3FD",
+  "char": "🧓🏽",
+  "name": "older person: medium skin tone",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F474 1F3FD",
+  "char": "👴🏽",
+  "name": "old man: medium skin tone",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F475 1F3FD",
+  "char": "👵🏽",
+  "name": "old woman: medium skin tone",
+  "category": "People & Body (person)",
+  "group": "People & Body",
+  "subgroup": "person"
+}, {
+  "codes": "1F645",
+  "char": "🙅",
+  "name": "person gesturing NO",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F645 1F3FB 200D 2642 FE0F",
+  "char": "🙅🏻‍♂️",
+  "name": "man gesturing NO: light skin tone",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F646",
+  "char": "🙆",
+  "name": "person gesturing OK",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F646 200D 2642 FE0F",
+  "char": "🙆‍♂️",
+  "name": "man gesturing OK",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F481 1F3FE 200D 2642 FE0F",
+  "char": "💁🏾‍♂️",
+  "name": "man tipping hand: medium-dark skin tone",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F481 1F3FF 200D 2640 FE0F",
+  "char": "💁🏿‍♀️",
+  "name": "woman tipping hand: dark skin tone",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F64B 1F3FD 200D 2642",
+  "char": "🙋🏽‍♂",
+  "name": "man raising hand: medium skin tone",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F64B 1F3FD 200D 2640",
+  "char": "🙋🏽‍♀",
+  "name": "woman raising hand: medium skin tone",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F926 1F3FF",
+  "char": "🤦🏿",
+  "name": "person facepalming: dark skin tone",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F926 200D 2640",
+  "char": "🤦‍♀",
+  "name": "woman facepalming",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F937 1F3FC",
+  "char": "🤷🏼",
+  "name": "person shrugging: medium-light skin tone",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F937 1F3FD 200D 2642 FE0F",
+  "char": "🤷🏽‍♂️",
+  "name": "man shrugging: medium skin tone",
+  "category": "People & Body (person-gesture)",
+  "group": "People & Body",
+  "subgroup": "person-gesture"
+}, {
+  "codes": "1F468 1F3FF 200D 2695 FE0F",
+  "char": "👨🏿‍⚕️",
+  "name": "man health worker: dark skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FB 200D 2695 FE0F",
+  "char": "👩🏻‍⚕️",
+  "name": "woman health worker: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 200D 1F393",
+  "char": "👨‍🎓",
+  "name": "man student",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FC 200D 1F393",
+  "char": "👩🏼‍🎓",
+  "name": "woman student: medium-light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 1F3FB 200D 1F3EB",
+  "char": "👨🏻‍🏫",
+  "name": "man teacher: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FD 200D 1F3EB",
+  "char": "👩🏽‍🏫",
+  "name": "woman teacher: medium skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 200D 2696",
+  "char": "👨‍⚖",
+  "name": "man judge",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 200D 2696 FE0F",
+  "char": "👩‍⚖️",
+  "name": "woman judge",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 200D 1F33E",
+  "char": "👨‍🌾",
+  "name": "man farmer",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FB 200D 1F33E",
+  "char": "👩🏻‍🌾",
+  "name": "woman farmer: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 1F3FB 200D 1F373",
+  "char": "👨🏻‍🍳",
+  "name": "man cook: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FE 200D 1F373",
+  "char": "👩🏾‍🍳",
+  "name": "woman cook: medium-dark skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 1F3FB 200D 1F527",
+  "char": "👨🏻‍🔧",
+  "name": "man mechanic: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FD 200D 1F527",
+  "char": "👩🏽‍🔧",
+  "name": "woman mechanic: medium skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 1F3FC 200D 1F3ED",
+  "char": "👨🏼‍🏭",
+  "name": "man factory worker: medium-light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FC 200D 1F3ED",
+  "char": "👩🏼‍🏭",
+  "name": "woman factory worker: medium-light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 200D 1F4BC",
+  "char": "👨‍💼",
+  "name": "man office worker",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 200D 1F4BC",
+  "char": "👩‍💼",
+  "name": "woman office worker",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 1F3FC 200D 1F52C",
+  "char": "👨🏼‍🔬",
+  "name": "man scientist: medium-light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FB 200D 1F52C",
+  "char": "👩🏻‍🔬",
+  "name": "woman scientist: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 200D 1F4BB",
+  "char": "👨‍💻",
+  "name": "man technologist",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 200D 1F4BB",
+  "char": "👩‍💻",
+  "name": "woman technologist",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 1F3FB 200D 1F3A4",
+  "char": "👨🏻‍🎤",
+  "name": "man singer: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FC 200D 1F3A4",
+  "char": "👩🏼‍🎤",
+  "name": "woman singer: medium-light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 1F3FB 200D 1F3A8",
+  "char": "👨🏻‍🎨",
+  "name": "man artist: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FC 200D 1F3A8",
+  "char": "👩🏼‍🎨",
+  "name": "woman artist: medium-light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 1F3FB 200D 2708",
+  "char": "👨🏻‍✈",
+  "name": "man pilot: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FD 200D 2708 FE0F",
+  "char": "👩🏽‍✈️",
+  "name": "woman pilot: medium skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 200D 1F680",
+  "char": "👩‍🚀",
+  "name": "woman astronaut",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FE 200D 1F680",
+  "char": "👩🏾‍🚀",
+  "name": "woman astronaut: medium-dark skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F468 200D 1F692",
+  "char": "👨‍🚒",
+  "name": "man firefighter",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F469 1F3FC 200D 1F692",
+  "char": "👩🏼‍🚒",
+  "name": "woman firefighter: medium-light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F46E 1F3FB",
+  "char": "👮🏻",
+  "name": "police officer: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F46E 1F3FE 200D 2640",
+  "char": "👮🏾‍♀",
+  "name": "woman police officer: medium-dark skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F575 FE0F",
+  "char": "🕵️",
+  "name": "detective",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F575 1F3FB 200D 2640 FE0F",
+  "char": "🕵🏻‍♀️",
+  "name": "woman detective: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F482",
+  "char": "💂",
+  "name": "guard",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F477 1F3FF",
+  "char": "👷🏿",
+  "name": "construction worker: dark skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F477 1F3FD 200D 2640 FE0F",
+  "char": "👷🏽‍♀️",
+  "name": "woman construction worker: medium skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F934 1F3FB",
+  "char": "🤴🏻",
+  "name": "prince: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F478 1F3FB",
+  "char": "👸🏻",
+  "name": "princess: light skin tone",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F473",
+  "char": "👳",
+  "name": "person wearing turban",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F473 200D 2640 FE0F",
+  "char": "👳‍♀️",
+  "name": "woman wearing turban",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F472",
+  "char": "👲",
+  "name": "man with skullcap",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F9D5",
+  "char": "🧕",
+  "name": "woman with headscarf",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F935",
+  "char": "🤵",
+  "name": "man in tuxedo",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F470",
+  "char": "👰",
+  "name": "bride with veil",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F930",
+  "char": "🤰",
+  "name": "pregnant woman",
+  "category": "People & Body (person-role)",
+  "group": "People & Body",
+  "subgroup": "person-role"
+}, {
+  "codes": "1F47C",
+  "char": "👼",
+  "name": "baby angel",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F385",
+  "char": "🎅",
+  "name": "Santa Claus",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F936",
+  "char": "🤶",
+  "name": "Mrs. Claus",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9B8",
+  "char": "🦸",
+  "name": "superhero",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9B8 200D 2642 FE0F",
+  "char": "🦸‍♂️",
+  "name": "man superhero",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9B9 1F3FB 200D 2640 FE0F",
+  "char": "🦹🏻‍♀️",
+  "name": "woman supervillain: light skin tone",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9D9",
+  "char": "🧙",
+  "name": "mage",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9D9 200D 2642",
+  "char": "🧙‍♂",
+  "name": "man mage",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9DA",
+  "char": "🧚",
+  "name": "fairy",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9DA 1F3FC 200D 2642",
+  "char": "🧚🏼‍♂",
+  "name": "man fairy: medium-light skin tone",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9DB",
+  "char": "🧛",
+  "name": "vampire",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9DB 200D 2642 FE0F",
+  "char": "🧛‍♂️",
+  "name": "man vampire",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9DC",
+  "char": "🧜",
+  "name": "merperson",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9DC 200D 2640",
+  "char": "🧜‍♀",
+  "name": "mermaid",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9DD",
+  "char": "🧝",
+  "name": "elf",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F9DD 200D 2640 FE0F",
+  "char": "🧝‍♀️",
+  "name": "woman elf",
+  "category": "People & Body (person-fantasy)",
+  "group": "People & Body",
+  "subgroup": "person-fantasy"
+}, {
+  "codes": "1F487",
+  "char": "💇",
+  "name": "person getting haircut",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F487 200D 2642 FE0F",
+  "char": "💇‍♂️",
+  "name": "man getting haircut",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F6B6",
+  "char": "🚶",
+  "name": "person walking",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F6B6 1F3FB 200D 2640 FE0F",
+  "char": "🚶🏻‍♀️",
+  "name": "woman walking: light skin tone",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F3C3 1F3FB",
+  "char": "🏃🏻",
+  "name": "person running: light skin tone",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F3C3 1F3FC 200D 2640",
+  "char": "🏃🏼‍♀",
+  "name": "woman running: medium-light skin tone",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F483",
+  "char": "💃",
+  "name": "woman dancing",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F57A",
+  "char": "🕺",
+  "name": "man dancing",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F9D7",
+  "char": "🧗",
+  "name": "person climbing",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F9D7 1F3FB 200D 2642",
+  "char": "🧗🏻‍♂",
+  "name": "man climbing: light skin tone",
+  "category": "People & Body (person-activity)",
+  "group": "People & Body",
+  "subgroup": "person-activity"
+}, {
+  "codes": "1F3C7",
+  "char": "🏇",
+  "name": "horse racing",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "26F7",
+  "char": "⛷",
+  "name": "skier",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F3C2",
+  "char": "🏂",
+  "name": "snowboarder",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F3CC FE0F",
+  "char": "🏌️",
+  "name": "person golfing",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F3C4 1F3FE",
+  "char": "🏄🏾",
+  "name": "person surfing: medium-dark skin tone",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F6A3 1F3FB",
+  "char": "🚣🏻",
+  "name": "person rowing boat: light skin tone",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F3CA",
+  "char": "🏊",
+  "name": "person swimming",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F3CA 1F3FB 200D 2640 FE0F",
+  "char": "🏊🏻‍♀️",
+  "name": "woman swimming: light skin tone",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "26F9 1F3FF",
+  "char": "⛹🏿",
+  "name": "person bouncing ball: dark skin tone",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "26F9 1F3FC 200D 2640 FE0F",
+  "char": "⛹🏼‍♀️",
+  "name": "woman bouncing ball: medium-light skin tone",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F3CB FE0F",
+  "char": "🏋️",
+  "name": "person lifting weights",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F6B4 1F3FD",
+  "char": "🚴🏽",
+  "name": "person biking: medium skin tone",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F6B4 1F3FB 200D 2640",
+  "char": "🚴🏻‍♀",
+  "name": "woman biking: light skin tone",
+  "category": "People & Body (person-sport)",
+  "group": "People & Body",
+  "subgroup": "person-sport"
+}, {
+  "codes": "1F9D8",
+  "char": "🧘",
+  "name": "person in lotus position",
+  "category": "People & Body (person-resting)",
+  "group": "People & Body",
+  "subgroup": "person-resting"
+}, {
+  "codes": "1F9D8 1F3FD 200D 2642",
+  "char": "🧘🏽‍♂",
+  "name": "man in lotus position: medium skin tone",
+  "category": "People & Body (person-resting)",
+  "group": "People & Body",
+  "subgroup": "person-resting"
+}, {
+  "codes": "1F6C0 1F3FD",
+  "char": "🛀🏽",
+  "name": "person taking bath: medium skin tone",
+  "category": "People & Body (person-resting)",
+  "group": "People & Body",
+  "subgroup": "person-resting"
+}, {
+  "codes": "1F6CC 1F3FC",
+  "char": "🛌🏼",
+  "name": "person in bed: medium-light skin tone",
+  "category": "People & Body (person-resting)",
+  "group": "People & Body",
+  "subgroup": "person-resting"
+}, {
+  "codes": "1F46B 1F3FE",
+  "char": "👫🏾",
+  "name": "woman and man holding hands: medium-dark skin tone",
+  "category": "People & Body (family)",
+  "group": "People & Body",
+  "subgroup": "family"
+}, {
+  "codes": "1F48F",
+  "char": "💏",
+  "name": "kiss",
+  "category": "People & Body (family)",
+  "group": "People & Body",
+  "subgroup": "family"
+}, {
+  "codes": "1F469 200D 2764 FE0F 200D 1F468",
+  "char": "👩‍❤️‍👨",
+  "name": "couple with heart: woman, man",
+  "category": "People & Body (family)",
+  "group": "People & Body",
+  "subgroup": "family"
+}, {
+  "codes": "1F46A",
+  "char": "👪",
+  "name": "family",
+  "category": "People & Body (family)",
+  "group": "People & Body",
+  "subgroup": "family"
+}, {
+  "codes": "1F468 200D 1F469 200D 1F467",
+  "char": "👨‍👩‍👧",
+  "name": "family: man, woman, girl",
+  "category": "People & Body (family)",
+  "group": "People & Body",
+  "subgroup": "family"
+}, {
+  "codes": "1F468 200D 1F469 200D 1F467 200D 1F466",
+  "char": "👨‍👩‍👧‍👦",
+  "name": "family: man, woman, girl, boy",
+  "category": "People & Body (family)",
+  "group": "People & Body",
+  "subgroup": "family"
+}, {
+  "codes": "1F5E3 FE0F",
+  "char": "🗣️",
+  "name": "speaking head",
+  "category": "People & Body (person-symbol)",
+  "group": "People & Body",
+  "subgroup": "person-symbol"
+}, {
+  "codes": "1F464",
+  "char": "👤",
+  "name": "bust in silhouette",
+  "category": "People & Body (person-symbol)",
+  "group": "People & Body",
+  "subgroup": "person-symbol"
+}, {
+  "codes": "1F465",
+  "char": "👥",
+  "name": "busts in silhouette",
+  "category": "People & Body (person-symbol)",
+  "group": "People & Body",
+  "subgroup": "person-symbol"
+}, {
+  "codes": "1F463",
+  "char": "👣",
+  "name": "footprints",
+  "category": "People & Body (person-symbol)",
+  "group": "People & Body",
+  "subgroup": "person-symbol"
+}, {
+  "codes": "1F412",
+  "char": "🐒",
+  "name": "monkey",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F98D",
+  "char": "🦍",
+  "name": "gorilla",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F436",
+  "char": "🐶",
+  "name": "dog face",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F415",
+  "char": "🐕",
+  "name": "dog",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F43A",
+  "char": "🐺",
+  "name": "wolf",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F98A",
+  "char": "🦊",
+  "name": "fox",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F99D",
+  "char": "🦝",
+  "name": "raccoon",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F431",
+  "char": "🐱",
+  "name": "cat face",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F408",
+  "char": "🐈",
+  "name": "cat",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F981",
+  "char": "🦁",
+  "name": "lion",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F42F",
+  "char": "🐯",
+  "name": "tiger face",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F405",
+  "char": "🐅",
+  "name": "tiger",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F406",
+  "char": "🐆",
+  "name": "leopard",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F434",
+  "char": "🐴",
+  "name": "horse face",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F40E",
+  "char": "🐎",
+  "name": "horse",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F984",
+  "char": "🦄",
+  "name": "unicorn",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F993",
+  "char": "🦓",
+  "name": "zebra",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F98C",
+  "char": "🦌",
+  "name": "deer",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F42E",
+  "char": "🐮",
+  "name": "cow face",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F402",
+  "char": "🐂",
+  "name": "ox",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F403",
+  "char": "🐃",
+  "name": "water buffalo",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F404",
+  "char": "🐄",
+  "name": "cow",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F437",
+  "char": "🐷",
+  "name": "pig face",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F417",
+  "char": "🐗",
+  "name": "boar",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F411",
+  "char": "🐑",
+  "name": "ewe",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F410",
+  "char": "🐐",
+  "name": "goat",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F42B",
+  "char": "🐫",
+  "name": "two-hump camel",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F999",
+  "char": "🦙",
+  "name": "llama",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F992",
+  "char": "🦒",
+  "name": "giraffe",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F418",
+  "char": "🐘",
+  "name": "elephant",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F98F",
+  "char": "🦏",
+  "name": "rhinoceros",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F99B",
+  "char": "🦛",
+  "name": "hippopotamus",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F401",
+  "char": "🐁",
+  "name": "mouse",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F439",
+  "char": "🐹",
+  "name": "hamster",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F430",
+  "char": "🐰",
+  "name": "rabbit face",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F407",
+  "char": "🐇",
+  "name": "rabbit",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F43F FE0F",
+  "char": "🐿️",
+  "name": "chipmunk",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F994",
+  "char": "🦔",
+  "name": "hedgehog",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F987",
+  "char": "🦇",
+  "name": "bat",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F43B",
+  "char": "🐻",
+  "name": "bear",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F428",
+  "char": "🐨",
+  "name": "koala",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F43C",
+  "char": "🐼",
+  "name": "panda",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F998",
+  "char": "🦘",
+  "name": "kangaroo",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F9A1",
+  "char": "🦡",
+  "name": "badger",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F43E",
+  "char": "🐾",
+  "name": "paw prints",
+  "category": "Animals & Nature (animal-mammal)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-mammal"
+}, {
+  "codes": "1F983",
+  "char": "🦃",
+  "name": "turkey",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F414",
+  "char": "🐔",
+  "name": "chicken",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F413",
+  "char": "🐓",
+  "name": "rooster",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F423",
+  "char": "🐣",
+  "name": "hatching chick",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F985",
+  "char": "🦅",
+  "name": "eagle",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F986",
+  "char": "🦆",
+  "name": "duck",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F9A2",
+  "char": "🦢",
+  "name": "swan",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F989",
+  "char": "🦉",
+  "name": "owl",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F99A",
+  "char": "🦚",
+  "name": "peacock",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F99C",
+  "char": "🦜",
+  "name": "parrot",
+  "category": "Animals & Nature (animal-bird)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bird"
+}, {
+  "codes": "1F438",
+  "char": "🐸",
+  "name": "frog",
+  "category": "Animals & Nature (animal-amphibian)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-amphibian"
+}, {
+  "codes": "1F40A",
+  "char": "🐊",
+  "name": "crocodile",
+  "category": "Animals & Nature (animal-reptile)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-reptile"
+}, {
+  "codes": "1F422",
+  "char": "🐢",
+  "name": "turtle",
+  "category": "Animals & Nature (animal-reptile)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-reptile"
+}, {
+  "codes": "1F98E",
+  "char": "🦎",
+  "name": "lizard",
+  "category": "Animals & Nature (animal-reptile)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-reptile"
+}, {
+  "codes": "1F40D",
+  "char": "🐍",
+  "name": "snake",
+  "category": "Animals & Nature (animal-reptile)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-reptile"
+}, {
+  "codes": "1F409",
+  "char": "🐉",
+  "name": "dragon",
+  "category": "Animals & Nature (animal-reptile)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-reptile"
+}, {
+  "codes": "1F995",
+  "char": "🦕",
+  "name": "sauropod",
+  "category": "Animals & Nature (animal-reptile)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-reptile"
+}, {
+  "codes": "1F996",
+  "char": "🦖",
+  "name": "T-Rex",
+  "category": "Animals & Nature (animal-reptile)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-reptile"
+}, {
+  "codes": "1F433",
+  "char": "🐳",
+  "name": "spouting whale",
+  "category": "Animals & Nature (animal-marine)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-marine"
+}, {
+  "codes": "1F40B",
+  "char": "🐋",
+  "name": "whale",
+  "category": "Animals & Nature (animal-marine)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-marine"
+}, {
+  "codes": "1F42C",
+  "char": "🐬",
+  "name": "dolphin",
+  "category": "Animals & Nature (animal-marine)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-marine"
+}, {
+  "codes": "1F41F",
+  "char": "🐟",
+  "name": "fish",
+  "category": "Animals & Nature (animal-marine)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-marine"
+}, {
+  "codes": "1F419",
+  "char": "🐙",
+  "name": "octopus",
+  "category": "Animals & Nature (animal-marine)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-marine"
+}, {
+  "codes": "1F40C",
+  "char": "🐌",
+  "name": "snail",
+  "category": "Animals & Nature (animal-bug)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bug"
+}, {
+  "codes": "1F98B",
+  "char": "🦋",
+  "name": "butterfly",
+  "category": "Animals & Nature (animal-bug)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bug"
+}, {
+  "codes": "1F41B",
+  "char": "🐛",
+  "name": "bug",
+  "category": "Animals & Nature (animal-bug)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bug"
+}, {
+  "codes": "1F41C",
+  "char": "🐜",
+  "name": "ant",
+  "category": "Animals & Nature (animal-bug)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bug"
+}, {
+  "codes": "1F41D",
+  "char": "🐝",
+  "name": "honeybee",
+  "category": "Animals & Nature (animal-bug)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bug"
+}, {
+  "codes": "1F41E",
+  "char": "🐞",
+  "name": "lady beetle",
+  "category": "Animals & Nature (animal-bug)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bug"
+}, {
+  "codes": "1F997",
+  "char": "🦗",
+  "name": "cricket",
+  "category": "Animals & Nature (animal-bug)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bug"
+}, {
+  "codes": "1F577",
+  "char": "🕷",
+  "name": "spider",
+  "category": "Animals & Nature (animal-bug)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bug"
+}, {
+  "codes": "1F578",
+  "char": "🕸",
+  "name": "spider web",
+  "category": "Animals & Nature (animal-bug)",
+  "group": "Animals & Nature",
+  "subgroup": "animal-bug"
+}, {
+  "codes": "1F339",
+  "char": "🌹",
+  "name": "rose",
+  "category": "Animals & Nature (plant-flower)",
+  "group": "Animals & Nature",
+  "subgroup": "plant-flower"
+}, {
+  "codes": "1F33C",
+  "char": "🌼",
+  "name": "blossom",
+  "category": "Animals & Nature (plant-flower)",
+  "group": "Animals & Nature",
+  "subgroup": "plant-flower"
+}, {
+  "codes": "1F337",
+  "char": "🌷",
+  "name": "tulip",
+  "category": "Animals & Nature (plant-flower)",
+  "group": "Animals & Nature",
+  "subgroup": "plant-flower"
+}, {
+  "codes": "1F332",
+  "char": "🌲",
+  "name": "evergreen tree",
+  "category": "Animals & Nature (plant-other)",
+  "group": "Animals & Nature",
+  "subgroup": "plant-other"
+}, {
+  "codes": "1F335",
+  "char": "🌵",
+  "name": "cactus",
+  "category": "Animals & Nature (plant-other)",
+  "group": "Animals & Nature",
+  "subgroup": "plant-other"
+}, {
+  "codes": "1F33E",
+  "char": "🌾",
+  "name": "sheaf of rice",
+  "category": "Animals & Nature (plant-other)",
+  "group": "Animals & Nature",
+  "subgroup": "plant-other"
+}, {
+  "codes": "1F340",
+  "char": "🍀",
+  "name": "four leaf clover",
+  "category": "Animals & Nature (plant-other)",
+  "group": "Animals & Nature",
+  "subgroup": "plant-other"
+}, {
+  "codes": "1F341",
+  "char": "🍁",
+  "name": "maple leaf",
+  "category": "Animals & Nature (plant-other)",
+  "group": "Animals & Nature",
+  "subgroup": "plant-other"
+}, {
+  "codes": "1F347",
+  "char": "🍇",
+  "name": "grapes",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F349",
+  "char": "🍉",
+  "name": "watermelon",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F34A",
+  "char": "🍊",
+  "name": "tangerine",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F34B",
+  "char": "🍋",
+  "name": "lemon",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F34C",
+  "char": "🍌",
+  "name": "banana",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F34D",
+  "char": "🍍",
+  "name": "pineapple",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F96D",
+  "char": "🥭",
+  "name": "mango",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F34E",
+  "char": "🍎",
+  "name": "red apple",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F34F",
+  "char": "🍏",
+  "name": "green apple",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F350",
+  "char": "🍐",
+  "name": "pear",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F351",
+  "char": "🍑",
+  "name": "peach",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F352",
+  "char": "🍒",
+  "name": "cherries",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F353",
+  "char": "🍓",
+  "name": "strawberry",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F95D",
+  "char": "🥝",
+  "name": "kiwi fruit",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F345",
+  "char": "🍅",
+  "name": "tomato",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F965",
+  "char": "🥥",
+  "name": "coconut",
+  "category": "Food & Drink (food-fruit)",
+  "group": "Food & Drink",
+  "subgroup": "food-fruit"
+}, {
+  "codes": "1F951",
+  "char": "🥑",
+  "name": "avocado",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F346",
+  "char": "🍆",
+  "name": "eggplant",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F954",
+  "char": "🥔",
+  "name": "potato",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F955",
+  "char": "🥕",
+  "name": "carrot",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F33D",
+  "char": "🌽",
+  "name": "ear of corn",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F336 FE0F",
+  "char": "🌶️",
+  "name": "hot pepper",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F336",
+  "char": "🌶",
+  "name": "hot pepper",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F952",
+  "char": "🥒",
+  "name": "cucumber",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F96C",
+  "char": "🥬",
+  "name": "leafy green",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F966",
+  "char": "🥦",
+  "name": "broccoli",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F344",
+  "char": "🍄",
+  "name": "mushroom",
+  "category": "Food & Drink (food-vegetable)",
+  "group": "Food & Drink",
+  "subgroup": "food-vegetable"
+}, {
+  "codes": "1F950",
+  "char": "🥐",
+  "name": "croissant",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F95E",
+  "char": "🥞",
+  "name": "pancakes",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F9C0",
+  "char": "🧀",
+  "name": "cheese wedge",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F356",
+  "char": "🍖",
+  "name": "meat on bone",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F357",
+  "char": "🍗",
+  "name": "poultry leg",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F969",
+  "char": "🥩",
+  "name": "cut of meat",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F953",
+  "char": "🥓",
+  "name": "bacon",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F354",
+  "char": "🍔",
+  "name": "hamburger",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F35F",
+  "char": "🍟",
+  "name": "french fries",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F355",
+  "char": "🍕",
+  "name": "pizza",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F32D",
+  "char": "🌭",
+  "name": "hot dog",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F96A",
+  "char": "🥪",
+  "name": "sandwich",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F32E",
+  "char": "🌮",
+  "name": "taco",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F32F",
+  "char": "🌯",
+  "name": "burrito",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F959",
+  "char": "🥙",
+  "name": "stuffed flatbread",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F373",
+  "char": "🍳",
+  "name": "cooking",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F372",
+  "char": "🍲",
+  "name": "pot of food",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F963",
+  "char": "🥣",
+  "name": "bowl with spoon",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F957",
+  "char": "🥗",
+  "name": "green salad",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F37F",
+  "char": "🍿",
+  "name": "popcorn",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F9C2",
+  "char": "🧂",
+  "name": "salt",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F96B",
+  "char": "🥫",
+  "name": "canned food",
+  "category": "Food & Drink (food-prepared)",
+  "group": "Food & Drink",
+  "subgroup": "food-prepared"
+}, {
+  "codes": "1F371",
+  "char": "🍱",
+  "name": "bento box",
+  "category": "Food & Drink (food-asian)",
+  "group": "Food & Drink",
+  "subgroup": "food-asian"
+}, {
+  "codes": "1F35A",
+  "char": "🍚",
+  "name": "cooked rice",
+  "category": "Food & Drink (food-asian)",
+  "group": "Food & Drink",
+  "subgroup": "food-asian"
+}, {
+  "codes": "1F35B",
+  "char": "🍛",
+  "name": "curry rice",
+  "category": "Food & Drink (food-asian)",
+  "group": "Food & Drink",
+  "subgroup": "food-asian"
+}, {
+  "codes": "1F35C",
+  "char": "🍜",
+  "name": "steaming bowl",
+  "category": "Food & Drink (food-asian)",
+  "group": "Food & Drink",
+  "subgroup": "food-asian"
+}, {
+  "codes": "1F35D",
+  "char": "🍝",
+  "name": "spaghetti",
+  "category": "Food & Drink (food-asian)",
+  "group": "Food & Drink",
+  "subgroup": "food-asian"
+}, {
+  "codes": "1F990",
+  "char": "🦐",
+  "name": "shrimp",
+  "category": "Food & Drink (food-marine)",
+  "group": "Food & Drink",
+  "subgroup": "food-marine"
+}, {
+  "codes": "1F991",
+  "char": "🦑",
+  "name": "squid",
+  "category": "Food & Drink (food-marine)",
+  "group": "Food & Drink",
+  "subgroup": "food-marine"
+}, {
+  "codes": "1F369",
+  "char": "🍩",
+  "name": "doughnut",
+  "category": "Food & Drink (food-sweet)",
+  "group": "Food & Drink",
+  "subgroup": "food-sweet"
+}, {
+  "codes": "1F36A",
+  "char": "🍪",
+  "name": "cookie",
+  "category": "Food & Drink (food-sweet)",
+  "group": "Food & Drink",
+  "subgroup": "food-sweet"
+}, {
+  "codes": "1F36D",
+  "char": "🍭",
+  "name": "lollipop",
+  "category": "Food & Drink (food-sweet)",
+  "group": "Food & Drink",
+  "subgroup": "food-sweet"
+}, {
+  "codes": "1F36E",
+  "char": "🍮",
+  "name": "custard",
+  "category": "Food & Drink (food-sweet)",
+  "group": "Food & Drink",
+  "subgroup": "food-sweet"
+}, {
+  "codes": "1F36F",
+  "char": "🍯",
+  "name": "honey pot",
+  "category": "Food & Drink (food-sweet)",
+  "group": "Food & Drink",
+  "subgroup": "food-sweet"
+}, {
+  "codes": "1F37C",
+  "char": "🍼",
+  "name": "baby bottle",
+  "category": "Food & Drink (drink)",
+  "group": "Food & Drink",
+  "subgroup": "drink"
+}, {
+  "codes": "1F95B",
+  "char": "🥛",
+  "name": "glass of milk",
+  "category": "Food & Drink (drink)",
+  "group": "Food & Drink",
+  "subgroup": "drink"
+}, {
+  "codes": "2615",
+  "char": "☕",
+  "name": "hot beverage",
+  "category": "Food & Drink (drink)",
+  "group": "Food & Drink",
+  "subgroup": "drink"
+}, {
+  "codes": "1F375",
+  "char": "🍵",
+  "name": "teacup without handle",
+  "category": "Food & Drink (drink)",
+  "group": "Food & Drink",
+  "subgroup": "drink"
+}, {
+  "codes": "1F376",
+  "char": "🍶",
+  "name": "sake",
+  "category": "Food & Drink (drink)",
+  "group": "Food & Drink",
+  "subgroup": "drink"
+}, {
+  "codes": "1F37E",
+  "char": "🍾",
+  "name": "bottle with popping cork",
+  "category": "Food & Drink (drink)",
+  "group": "Food & Drink",
+  "subgroup": "drink"
+}, {
+  "codes": "1F377",
+  "char": "🍷",
+  "name": "wine glass",
+  "category": "Food & Drink (drink)",
+  "group": "Food & Drink",
+  "subgroup": "drink"
+}, {
+  "codes": "1F37D",
+  "char": "🍽",
+  "name": "fork and knife with plate",
+  "category": "Food & Drink (dishware)",
+  "group": "Food & Drink",
+  "subgroup": "dishware"
+}, {
+  "codes": "1F52A",
+  "char": "🔪",
+  "name": "kitchen knife",
+  "category": "Food & Drink (dishware)",
+  "group": "Food & Drink",
+  "subgroup": "dishware"
+}, {
+  "codes": "1F30D",
+  "char": "🌍",
+  "name": "globe showing Europe-Africa",
+  "category": "Travel & Places (place-map)",
+  "group": "Travel & Places",
+  "subgroup": "place-map"
+}, {
+  "codes": "1F5FA FE0F",
+  "char": "🗺️",
+  "name": "world map",
+  "category": "Travel & Places (place-map)",
+  "group": "Travel & Places",
+  "subgroup": "place-map"
+}, {
+  "codes": "1F9ED",
+  "char": "🧭",
+  "name": "compass",
+  "category": "Travel & Places (place-map)",
+  "group": "Travel & Places",
+  "subgroup": "place-map"
+}, {
+  "codes": "1F3D4 FE0F",
+  "char": "🏔️",
+  "name": "snow-capped mountain",
+  "category": "Travel & Places (place-geographic)",
+  "group": "Travel & Places",
+  "subgroup": "place-geographic"
+}, {
+  "codes": "1F30B",
+  "char": "🌋",
+  "name": "volcano",
+  "category": "Travel & Places (place-geographic)",
+  "group": "Travel & Places",
+  "subgroup": "place-geographic"
+}, {
+  "codes": "1F3D5 FE0F",
+  "char": "🏕️",
+  "name": "camping",
+  "category": "Travel & Places (place-geographic)",
+  "group": "Travel & Places",
+  "subgroup": "place-geographic"
+}, {
+  "codes": "1F3D6",
+  "char": "🏖",
+  "name": "beach with umbrella",
+  "category": "Travel & Places (place-geographic)",
+  "group": "Travel & Places",
+  "subgroup": "place-geographic"
+}, {
+  "codes": "1F3DC",
+  "char": "🏜",
+  "name": "desert",
+  "category": "Travel & Places (place-geographic)",
+  "group": "Travel & Places",
+  "subgroup": "place-geographic"
+}, {
+  "codes": "1F3DD FE0F",
+  "char": "🏝️",
+  "name": "desert island",
+  "category": "Travel & Places (place-geographic)",
+  "group": "Travel & Places",
+  "subgroup": "place-geographic"
+}, {
+  "codes": "1F3DD",
+  "char": "🏝",
+  "name": "desert island",
+  "category": "Travel & Places (place-geographic)",
+  "group": "Travel & Places",
+  "subgroup": "place-geographic"
+}, {
+  "codes": "1F3DE",
+  "char": "🏞",
+  "name": "national park",
+  "category": "Travel & Places (place-geographic)",
+  "group": "Travel & Places",
+  "subgroup": "place-geographic"
+}, {
+  "codes": "1F3DB FE0F",
+  "char": "🏛️",
+  "name": "classical building",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F3D7",
+  "char": "🏗",
+  "name": "building construction",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F3D8",
+  "char": "🏘",
+  "name": "houses",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F3DA FE0F",
+  "char": "🏚️",
+  "name": "derelict house",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F3E2",
+  "char": "🏢",
+  "name": "office building",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F3E5",
+  "char": "🏥",
+  "name": "hospital",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F3E6",
+  "char": "🏦",
+  "name": "bank",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F3EB",
+  "char": "🏫",
+  "name": "school",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F3ED",
+  "char": "🏭",
+  "name": "factory",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F3F0",
+  "char": "🏰",
+  "name": "castle",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "1F5FD",
+  "char": "🗽",
+  "name": "Statue of Liberty",
+  "category": "Travel & Places (place-building)",
+  "group": "Travel & Places",
+  "subgroup": "place-building"
+}, {
+  "codes": "26EA",
+  "char": "⛪",
+  "name": "church",
+  "category": "Travel & Places (place-religious)",
+  "group": "Travel & Places",
+  "subgroup": "place-religious"
+}, {
+  "codes": "1F3D9 FE0F",
+  "char": "🏙️",
+  "name": "cityscape",
+  "category": "Travel & Places (place-other)",
+  "group": "Travel & Places",
+  "subgroup": "place-other"
+}, {
+  "codes": "1F305",
+  "char": "🌅",
+  "name": "sunrise",
+  "category": "Travel & Places (place-other)",
+  "group": "Travel & Places",
+  "subgroup": "place-other"
+}, {
+  "codes": "1F686",
+  "char": "🚆",
+  "name": "train",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F68D",
+  "char": "🚍",
+  "name": "oncoming bus",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F691",
+  "char": "🚑",
+  "name": "ambulance",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F692",
+  "char": "🚒",
+  "name": "fire engine",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F693",
+  "char": "🚓",
+  "name": "police car",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F695",
+  "char": "🚕",
+  "name": "taxi",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F697",
+  "char": "🚗",
+  "name": "automobile",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F69A",
+  "char": "🚚",
+  "name": "delivery truck",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F69C",
+  "char": "🚜",
+  "name": "tractor",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F3CD FE0F",
+  "char": "🏍️",
+  "name": "motorcycle",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F6F5",
+  "char": "🛵",
+  "name": "motor scooter",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F6B2",
+  "char": "🚲",
+  "name": "bicycle",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F6F4",
+  "char": "🛴",
+  "name": "kick scooter",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F6F9",
+  "char": "🛹",
+  "name": "skateboard",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "1F6A6",
+  "char": "🚦",
+  "name": "vertical traffic light",
+  "category": "Travel & Places (transport-ground)",
+  "group": "Travel & Places",
+  "subgroup": "transport-ground"
+}, {
+  "codes": "26F5",
+  "char": "⛵",
+  "name": "sailboat",
+  "category": "Travel & Places (transport-water)",
+  "group": "Travel & Places",
+  "subgroup": "transport-water"
+}, {
+  "codes": "1F6F6",
+  "char": "🛶",
+  "name": "canoe",
+  "category": "Travel & Places (transport-water)",
+  "group": "Travel & Places",
+  "subgroup": "transport-water"
+}, {
+  "codes": "2708 FE0F",
+  "char": "✈️",
+  "name": "airplane",
+  "category": "Travel & Places (transport-air)",
+  "group": "Travel & Places",
+  "subgroup": "transport-air"
+}, {
+  "codes": "1F681",
+  "char": "🚁",
+  "name": "helicopter",
+  "category": "Travel & Places (transport-air)",
+  "group": "Travel & Places",
+  "subgroup": "transport-air"
+}, {
+  "codes": "1F680",
+  "char": "🚀",
+  "name": "rocket",
+  "category": "Travel & Places (transport-air)",
+  "group": "Travel & Places",
+  "subgroup": "transport-air"
+}, {
+  "codes": "1F6F8",
+  "char": "🛸",
+  "name": "flying saucer",
+  "category": "Travel & Places (transport-air)",
+  "group": "Travel & Places",
+  "subgroup": "transport-air"
+}, {
+  "codes": "1F9F3",
+  "char": "🧳",
+  "name": "luggage",
+  "category": "Travel & Places (hotel)",
+  "group": "Travel & Places",
+  "subgroup": "hotel"
+}, {
+  "codes": "231B",
+  "char": "⌛",
+  "name": "hourglass done",
+  "category": "Travel & Places (time)",
+  "group": "Travel & Places",
+  "subgroup": "time"
+}, {
+  "codes": "23F3",
+  "char": "⏳",
+  "name": "hourglass not done",
+  "category": "Travel & Places (time)",
+  "group": "Travel & Places",
+  "subgroup": "time"
+}, {
+  "codes": "231A",
+  "char": "⌚",
+  "name": "watch",
+  "category": "Travel & Places (time)",
+  "group": "Travel & Places",
+  "subgroup": "time"
+}, {
+  "codes": "23F0",
+  "char": "⏰",
+  "name": "alarm clock",
+  "category": "Travel & Places (time)",
+  "group": "Travel & Places",
+  "subgroup": "time"
+}, {
+  "codes": "1F319",
+  "char": "🌙",
+  "name": "crescent moon",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F31A",
+  "char": "🌚",
+  "name": "new moon face",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "2600 FE0F",
+  "char": "☀️",
+  "name": "sun",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "2B50",
+  "char": "⭐",
+  "name": "star",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "26C5",
+  "char": "⛅",
+  "name": "sun behind cloud",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "26C8",
+  "char": "⛈",
+  "name": "cloud with lightning and rain",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F324 FE0F",
+  "char": "🌤️",
+  "name": "sun behind small cloud",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F325",
+  "char": "🌥",
+  "name": "sun behind large cloud",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F326",
+  "char": "🌦",
+  "name": "sun behind rain cloud",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F327",
+  "char": "🌧",
+  "name": "cloud with rain",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F328",
+  "char": "🌨",
+  "name": "cloud with snow",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F329",
+  "char": "🌩",
+  "name": "cloud with lightning",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F32A",
+  "char": "🌪",
+  "name": "tornado",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F308",
+  "char": "🌈",
+  "name": "rainbow",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F302",
+  "char": "🌂",
+  "name": "closed umbrella",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "26A1",
+  "char": "⚡",
+  "name": "high voltage",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "2744 FE0F",
+  "char": "❄️",
+  "name": "snowflake",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "2603 FE0F",
+  "char": "☃️",
+  "name": "snowman",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "2604",
+  "char": "☄",
+  "name": "comet",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F525",
+  "char": "🔥",
+  "name": "fire",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F4A7",
+  "char": "💧",
+  "name": "droplet",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F30A",
+  "char": "🌊",
+  "name": "water wave",
+  "category": "Travel & Places (sky & weather)",
+  "group": "Travel & Places",
+  "subgroup": "sky & weather"
+}, {
+  "codes": "1F383",
+  "char": "🎃",
+  "name": "jack-o-lantern",
+  "category": "Activities (event)",
+  "group": "Activities",
+  "subgroup": "event"
+}, {
+  "codes": "1F384",
+  "char": "🎄",
+  "name": "Christmas tree",
+  "category": "Activities (event)",
+  "group": "Activities",
+  "subgroup": "event"
+}, {
+  "codes": "1F9E8",
+  "char": "🧨",
+  "name": "firecracker",
+  "category": "Activities (event)",
+  "group": "Activities",
+  "subgroup": "event"
+}, {
+  "codes": "2728",
+  "char": "✨",
+  "name": "sparkles",
+  "category": "Activities (event)",
+  "group": "Activities",
+  "subgroup": "event"
+}, {
+  "codes": "1F388",
+  "char": "🎈",
+  "name": "balloon",
+  "category": "Activities (event)",
+  "group": "Activities",
+  "subgroup": "event"
+}, {
+  "codes": "1F389",
+  "char": "🎉",
+  "name": "party popper",
+  "category": "Activities (event)",
+  "group": "Activities",
+  "subgroup": "event"
+}, {
+  "codes": "1F381",
+  "char": "🎁",
+  "name": "wrapped gift",
+  "category": "Activities (event)",
+  "group": "Activities",
+  "subgroup": "event"
+}, {
+  "codes": "1F397",
+  "char": "🎗",
+  "name": "reminder ribbon",
+  "category": "Activities (event)",
+  "group": "Activities",
+  "subgroup": "event"
+}, {
+  "codes": "1F396 FE0F",
+  "char": "🎖️",
+  "name": "military medal",
+  "category": "Activities (award-medal)",
+  "group": "Activities",
+  "subgroup": "award-medal"
+}, {
+  "codes": "1F3C6",
+  "char": "🏆",
+  "name": "trophy",
+  "category": "Activities (award-medal)",
+  "group": "Activities",
+  "subgroup": "award-medal"
+}, {
+  "codes": "1F947",
+  "char": "🥇",
+  "name": "1st place medal",
+  "category": "Activities (award-medal)",
+  "group": "Activities",
+  "subgroup": "award-medal"
+}, {
+  "codes": "26BD",
+  "char": "⚽",
+  "name": "soccer ball",
+  "category": "Activities (sport)",
+  "group": "Activities",
+  "subgroup": "sport"
+}, {
+  "codes": "26BE",
+  "char": "⚾",
+  "name": "baseball",
+  "category": "Activities (sport)",
+  "group": "Activities",
+  "subgroup": "sport"
+}, {
+  "codes": "1F3C0",
+  "char": "🏀",
+  "name": "basketball",
+  "category": "Activities (sport)",
+  "group": "Activities",
+  "subgroup": "sport"
+}, {
+  "codes": "1F3D0",
+  "char": "🏐",
+  "name": "volleyball",
+  "category": "Activities (sport)",
+  "group": "Activities",
+  "subgroup": "sport"
+}, {
+  "codes": "1F3C8",
+  "char": "🏈",
+  "name": "american football",
+  "category": "Activities (sport)",
+  "group": "Activities",
+  "subgroup": "sport"
+}, {
+  "codes": "1F3BE",
+  "char": "🎾",
+  "name": "tennis",
+  "category": "Activities (sport)",
+  "group": "Activities",
+  "subgroup": "sport"
+}, {
+  "codes": "1F3B3",
+  "char": "🎳",
+  "name": "bowling",
+  "category": "Activities (sport)",
+  "group": "Activities",
+  "subgroup": "sport"
+}, {
+  "codes": "1F3D3",
+  "char": "🏓",
+  "name": "ping pong",
+  "category": "Activities (sport)",
+  "group": "Activities",
+  "subgroup": "sport"
+}, {
+  "codes": "1F94A",
+  "char": "🥊",
+  "name": "boxing glove",
+  "category": "Activities (sport)",
+  "group": "Activities",
+  "subgroup": "sport"
+}, {
+  "codes": "1F453",
+  "char": "👓",
+  "name": "glasses",
+  "category": "Objects (clothing)",
+  "group": "Objects",
+  "subgroup": "clothing"
+}, {
+  "codes": "1F393",
+  "char": "🎓",
+  "name": "graduation cap",
+  "category": "Objects (clothing)",
+  "group": "Objects",
+  "subgroup": "clothing"
+}, {
+  "codes": "1F48D",
+  "char": "💍",
+  "name": "ring",
+  "category": "Objects (clothing)",
+  "group": "Objects",
+  "subgroup": "clothing"
+}, {
+  "codes": "1F3B5",
+  "char": "🎵",
+  "name": "musical note",
+  "category": "Objects (music)",
+  "group": "Objects",
+  "subgroup": "music"
+}, {
+  "codes": "1F3A4",
+  "char": "🎤",
+  "name": "microphone",
+  "category": "Objects (music)",
+  "group": "Objects",
+  "subgroup": "music"
+}, {
+  "codes": "1F3A7",
+  "char": "🎧",
+  "name": "headphone",
+  "category": "Objects (music)",
+  "group": "Objects",
+  "subgroup": "music"
+}, {
+  "codes": "1F3B7",
+  "char": "🎷",
+  "name": "saxophone",
+  "category": "Objects (musical-instrument)",
+  "group": "Objects",
+  "subgroup": "musical-instrument"
+}, {
+  "codes": "1F3B8",
+  "char": "🎸",
+  "name": "guitar",
+  "category": "Objects (musical-instrument)",
+  "group": "Objects",
+  "subgroup": "musical-instrument"
+}, {
+  "codes": "1F3B9",
+  "char": "🎹",
+  "name": "musical keyboard",
+  "category": "Objects (musical-instrument)",
+  "group": "Objects",
+  "subgroup": "musical-instrument"
+}, {
+  "codes": "1F3BB",
+  "char": "🎻",
+  "name": "violin",
+  "category": "Objects (musical-instrument)",
+  "group": "Objects",
+  "subgroup": "musical-instrument"
+}, {
+  "codes": "1F941",
+  "char": "🥁",
+  "name": "drum",
+  "category": "Objects (musical-instrument)",
+  "group": "Objects",
+  "subgroup": "musical-instrument"
+}, {
+  "codes": "1F4DE",
+  "char": "📞",
+  "name": "telephone receiver",
+  "category": "Objects (phone)",
+  "group": "Objects",
+  "subgroup": "phone"
+}, {
+  "codes": "1F5A5 FE0F",
+  "char": "🖥️",
+  "name": "desktop computer",
+  "category": "Objects (computer)",
+  "group": "Objects",
+  "subgroup": "computer"
+}, {
+  "codes": "1F4FA",
+  "char": "📺",
+  "name": "television",
+  "category": "Objects (light & video)",
+  "group": "Objects",
+  "subgroup": "light & video"
+}, {
+  "codes": "1F4F7",
+  "char": "📷",
+  "name": "camera",
+  "category": "Objects (light & video)",
+  "group": "Objects",
+  "subgroup": "light & video"
+}, {
+  "codes": "1F50E",
+  "char": "🔎",
+  "name": "magnifying glass tilted right",
+  "category": "Objects (light & video)",
+  "group": "Objects",
+  "subgroup": "light & video"
+}, {
+  "codes": "1F4A1",
+  "char": "💡",
+  "name": "light bulb",
+  "category": "Objects (light & video)",
+  "group": "Objects",
+  "subgroup": "light & video"
+}, {
+  "codes": "1F4D4",
+  "char": "📔",
+  "name": "notebook with decorative cover",
+  "category": "Objects (book-paper)",
+  "group": "Objects",
+  "subgroup": "book-paper"
+}, {
+  "codes": "1F4DA",
+  "char": "📚",
+  "name": "books",
+  "category": "Objects (book-paper)",
+  "group": "Objects",
+  "subgroup": "book-paper"
+}, {
+  "codes": "1F4C3",
+  "char": "📃",
+  "name": "page with curl",
+  "category": "Objects (book-paper)",
+  "group": "Objects",
+  "subgroup": "book-paper"
+}, {
+  "codes": "1F4DC",
+  "char": "📜",
+  "name": "scroll",
+  "category": "Objects (book-paper)",
+  "group": "Objects",
+  "subgroup": "book-paper"
+}, {
+  "codes": "1F4F0",
+  "char": "📰",
+  "name": "newspaper",
+  "category": "Objects (book-paper)",
+  "group": "Objects",
+  "subgroup": "book-paper"
+}, {
+  "codes": "1F516",
+  "char": "🔖",
+  "name": "bookmark",
+  "category": "Objects (book-paper)",
+  "group": "Objects",
+  "subgroup": "book-paper"
+}, {
+  "codes": "1F4B0",
+  "char": "💰",
+  "name": "money bag",
+  "category": "Objects (money)",
+  "group": "Objects",
+  "subgroup": "money"
+}, {
+  "codes": "1F4B5",
+  "char": "💵",
+  "name": "dollar banknote",
+  "category": "Objects (money)",
+  "group": "Objects",
+  "subgroup": "money"
+}, {
+  "codes": "1F4B8",
+  "char": "💸",
+  "name": "money with wings",
+  "category": "Objects (money)",
+  "group": "Objects",
+  "subgroup": "money"
+}, {
+  "codes": "1F4E6",
+  "char": "📦",
+  "name": "package",
+  "category": "Objects (mail)",
+  "group": "Objects",
+  "subgroup": "mail"
+}, {
+  "codes": "1F4EB",
+  "char": "📫",
+  "name": "closed mailbox with raised flag",
+  "category": "Objects (mail)",
+  "group": "Objects",
+  "subgroup": "mail"
+}, {
+  "codes": "270F FE0F",
+  "char": "✏️",
+  "name": "pencil",
+  "category": "Objects (writing)",
+  "group": "Objects",
+  "subgroup": "writing"
+}, {
+  "codes": "1F4DD",
+  "char": "📝",
+  "name": "memo",
+  "category": "Objects (writing)",
+  "group": "Objects",
+  "subgroup": "writing"
+}, {
+  "codes": "1F4BC",
+  "char": "💼",
+  "name": "briefcase",
+  "category": "Objects (office)",
+  "group": "Objects",
+  "subgroup": "office"
+}, {
+  "codes": "1F4C5",
+  "char": "📅",
+  "name": "calendar",
+  "category": "Objects (office)",
+  "group": "Objects",
+  "subgroup": "office"
+}, {
+  "codes": "1F4CE",
+  "char": "📎",
+  "name": "paperclip",
+  "category": "Objects (office)",
+  "group": "Objects",
+  "subgroup": "office"
+}, {
+  "codes": "1F4D0",
+  "char": "📐",
+  "name": "triangular ruler",
+  "category": "Objects (office)",
+  "group": "Objects",
+  "subgroup": "office"
+}, {
+  "codes": "2702 FE0F",
+  "char": "✂️",
+  "name": "scissors",
+  "category": "Objects (office)",
+  "group": "Objects",
+  "subgroup": "office"
+}, {
+  "codes": "1F512",
+  "char": "🔒",
+  "name": "locked",
+  "category": "Objects (lock)",
+  "group": "Objects",
+  "subgroup": "lock"
+}, {
+  "codes": "1F510",
+  "char": "🔐",
+  "name": "locked with key",
+  "category": "Objects (lock)",
+  "group": "Objects",
+  "subgroup": "lock"
+}, {
+  "codes": "1F511",
+  "char": "🔑",
+  "name": "key",
+  "category": "Objects (lock)",
+  "group": "Objects",
+  "subgroup": "lock"
+}, {
+  "codes": "1F528",
+  "char": "🔨",
+  "name": "hammer",
+  "category": "Objects (tool)",
+  "group": "Objects",
+  "subgroup": "tool"
+}, {
+  "codes": "1F5E1 FE0F",
+  "char": "🗡️",
+  "name": "dagger",
+  "category": "Objects (tool)",
+  "group": "Objects",
+  "subgroup": "tool"
+}, {
+  "codes": "2694 FE0F",
+  "char": "⚔️",
+  "name": "crossed swords",
+  "category": "Objects (tool)",
+  "group": "Objects",
+  "subgroup": "tool"
+}, {
+  "codes": "1F52B",
+  "char": "🔫",
+  "name": "pistol",
+  "category": "Objects (tool)",
+  "group": "Objects",
+  "subgroup": "tool"
+}, {
+  "codes": "1F3F9",
+  "char": "🏹",
+  "name": "bow and arrow",
+  "category": "Objects (tool)",
+  "group": "Objects",
+  "subgroup": "tool"
+}, {
+  "codes": "1F527",
+  "char": "🔧",
+  "name": "wrench",
+  "category": "Objects (tool)",
+  "group": "Objects",
+  "subgroup": "tool"
+}, {
+  "codes": "1F9F2",
+  "char": "🧲",
+  "name": "magnet",
+  "category": "Objects (tool)",
+  "group": "Objects",
+  "subgroup": "tool"
+}, {
+  "codes": "1F9EA",
+  "char": "🧪",
+  "name": "test tube",
+  "category": "Objects (science)",
+  "group": "Objects",
+  "subgroup": "science"
+}, {
+  "codes": "1F52C",
+  "char": "🔬",
+  "name": "microscope",
+  "category": "Objects (science)",
+  "group": "Objects",
+  "subgroup": "science"
+}, {
+  "codes": "1F52D",
+  "char": "🔭",
+  "name": "telescope",
+  "category": "Objects (science)",
+  "group": "Objects",
+  "subgroup": "science"
+}, {
+  "codes": "1F489",
+  "char": "💉",
+  "name": "syringe",
+  "category": "Objects (medical)",
+  "group": "Objects",
+  "subgroup": "medical"
+}, {
+  "codes": "1F48A",
+  "char": "💊",
+  "name": "pill",
+  "category": "Objects (medical)",
+  "group": "Objects",
+  "subgroup": "medical"
+}, {
+  "codes": "1F6AA",
+  "char": "🚪",
+  "name": "door",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "1F6CF FE0F",
+  "char": "🛏️",
+  "name": "bed",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "1F6CB FE0F",
+  "char": "🛋️",
+  "name": "couch and lamp",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "1F6BD",
+  "char": "🚽",
+  "name": "toilet",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "1F6BF",
+  "char": "🚿",
+  "name": "shower",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "1F6C1",
+  "char": "🛁",
+  "name": "bathtub",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "1F9F9",
+  "char": "🧹",
+  "name": "broom",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "1F9FB",
+  "char": "🧻",
+  "name": "roll of paper",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "1F9EF",
+  "char": "🧯",
+  "name": "fire extinguisher",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "1F6D2",
+  "char": "🛒",
+  "name": "shopping cart",
+  "category": "Objects (household)",
+  "group": "Objects",
+  "subgroup": "household"
+}, {
+  "codes": "26A0 FE0F",
+  "char": "⚠️",
+  "name": "warning",
+  "category": "Symbols (warning)",
+  "group": "Symbols",
+  "subgroup": "warning"
+}, {
+  "codes": "26D4",
+  "char": "⛔",
+  "name": "no entry",
+  "category": "Symbols (warning)",
+  "group": "Symbols",
+  "subgroup": "warning"
+}, {
+  "codes": "1F6B7",
+  "char": "🚷",
+  "name": "no pedestrians",
+  "category": "Symbols (warning)",
+  "group": "Symbols",
+  "subgroup": "warning"
+}, {
+  "codes": "262F FE0F",
+  "char": "☯️",
+  "name": "yin yang",
+  "category": "Symbols (religion)",
+  "group": "Symbols",
+  "subgroup": "religion"
+}, {
+  "codes": "2626 FE0F",
+  "char": "☦️",
+  "name": "orthodox cross",
+  "category": "Symbols (religion)",
+  "group": "Symbols",
+  "subgroup": "religion"
+}, {
+  "codes": "262A FE0F",
+  "char": "☪️",
+  "name": "star and crescent",
+  "category": "Symbols (religion)",
+  "group": "Symbols",
+  "subgroup": "religion"
+}, {
+  "codes": "262E FE0F",
+  "char": "☮️",
+  "name": "peace symbol",
+  "category": "Symbols (religion)",
+  "group": "Symbols",
+  "subgroup": "religion"
+}, {
+  "codes": "25B6 FE0F",
+  "char": "▶️",
+  "name": "play button",
+  "category": "Symbols (av-symbol)",
+  "group": "Symbols",
+  "subgroup": "av-symbol"
+}, {
+  "codes": "23E9",
+  "char": "⏩",
+  "name": "fast-forward button",
+  "category": "Symbols (av-symbol)",
+  "group": "Symbols",
+  "subgroup": "av-symbol"
+}, {
+  "codes": "23F8",
+  "char": "⏸",
+  "name": "pause button",
+  "category": "Symbols (av-symbol)",
+  "group": "Symbols",
+  "subgroup": "av-symbol"
+}, {
+  "codes": "23F9 FE0F",
+  "char": "⏹️",
+  "name": "stop button",
+  "category": "Symbols (av-symbol)",
+  "group": "Symbols",
+  "subgroup": "av-symbol"
+}, {
+  "codes": "1F3A6",
+  "char": "🎦",
+  "name": "cinema",
+  "category": "Symbols (av-symbol)",
+  "group": "Symbols",
+  "subgroup": "av-symbol"
+}, {
+  "codes": "2714",
+  "char": "✔",
+  "name": "check mark",
+  "category": "Symbols (other-symbol)",
+  "group": "Symbols",
+  "subgroup": "other-symbol"
+}, {
+  "codes": "2049 FE0F",
+  "char": "⁉️",
+  "name": "exclamation question mark",
+  "category": "Symbols (other-symbol)",
+  "group": "Symbols",
+  "subgroup": "other-symbol"
+}, {
+  "codes": "1F193",
+  "char": "🆓",
+  "name": "FREE button",
+  "category": "Symbols (alphanum)",
+  "group": "Symbols",
+  "subgroup": "alphanum"
+}, {
+  "codes": "1F198",
+  "char": "🆘",
+  "name": "SOS button",
+  "category": "Symbols (alphanum)",
+  "group": "Symbols",
+  "subgroup": "alphanum"
+}, {
+  "codes": "3297",
+  "char": "㊗",
+  "name": "Japanese “congratulations” button",
+  "category": "Symbols (alphanum)",
+  "group": "Symbols",
+  "subgroup": "alphanum"
+}, {
+  "codes": "2B1B",
+  "char": "⬛",
+  "name": "black large square",
+  "category": "Symbols (geometric)",
+  "group": "Symbols",
+  "subgroup": "geometric"
+}, {
+  "codes": "1F3C1",
+  "char": "🏁",
+  "name": "chequered flag",
+  "category": "Flags (flag)",
+  "group": "Flags",
+  "subgroup": "flag"
+}, {
+  "codes": "1F6A9",
+  "char": "🚩",
+  "name": "triangular flag",
+  "category": "Flags (flag)",
+  "group": "Flags",
+  "subgroup": "flag"
+}, {
+  "codes": "1F3F3 FE0F",
+  "char": "🏳️",
+  "name": "white flag",
+  "category": "Flags (flag)",
+  "group": "Flags",
+  "subgroup": "flag"
+}, {
+  "codes": "1F3F4 200D 2620 FE0F",
+  "char": "🏴‍☠️",
+  "name": "pirate flag",
+  "category": "Flags (flag)",
+  "group": "Flags",
+  "subgroup": "flag"
+}, {
+  "codes": "1F1F7 1F1FA",
+  "char": "🇷🇺",
+  "name": "flag: Russia",
+  "category": "Flags (country-flag)",
+  "group": "Flags",
+  "subgroup": "country-flag"
+}, {
+  "codes": "1F1FA 1F1F2",
+  "char": "🇺🇲",
+  "name": "flag: U.S. Outlying Islands",
+  "category": "Flags (country-flag)",
+  "group": "Flags",
+  "subgroup": "country-flag"
+}, {
+  "codes": "267B",
+  "char": "♻",
+  "name": "recycling symbol",
+  "category": "Symbols (other-symbol)",
+  "group": "Symbols",
+  "subgroup": "other-symbol"
+}]

@@ -13,6 +13,8 @@ var express = require('express')
 var bodyParser = require('body-parser')
 var awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
 
+var emojis = require("./emoji_filtered.json");
+
 // declare a new express app
 var app = express()
 app.use(bodyParser.json())
@@ -30,12 +32,39 @@ app.use(function (req, res, next) {
  * Example get method *
  **********************/
 
+let EMOJIS = [...emojis];
+let EMOJIS_USED = [];
+
 app.get('/emoji', function (req, res) {
-  // Add your code here
-  res.json({
-    success: 'get call succeed!',
-    url: req.url
-  });
+  const COUNT = req.query.count ? req.query.count : 5;
+
+  function rollTheDice(count) {
+    if (EMOJIS.length < count) {
+      EMOJIS = [...EMOJIS, ...EMOJIS_USED];
+      EMOJIS_USED = [];
+    }
+    let dice_set = [];
+
+    for (let i = 0; i < count; i++) {
+      const DICE = getNewDice();
+      dice_set.push(DICE);
+    }
+
+    return dice_set;
+  }
+
+  function getNewDice() {
+    let index = Math.floor(Math.random() * EMOJIS.length);
+    const DICE = EMOJIS[index];
+
+    EMOJIS_USED.push(EMOJIS[index]);
+    EMOJIS.splice(index, 1);
+    return DICE.char;
+  }
+
+  const DICE_SET = rollTheDice(COUNT);
+
+  res.json(DICE_SET);
 });
 
 // app.get('/*', function(req, res) {
