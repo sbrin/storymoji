@@ -1,42 +1,57 @@
 <template>
   <q-page>
-    <q-page class="text-center">
-      <div class="q-pa-md q-gutter-sm">
-        <q-breadcrumbs gutter="xs">
-          <q-breadcrumbs-el label="Home" to="/" />
-          <q-breadcrumbs-el label="Storymoji" to="/storymoji" />
-          <q-breadcrumbs-el label="Multiplayer" to="/storymoji/multi" />
-          <q-breadcrumbs-el label="Game" />
-        </q-breadcrumbs>
+    <div class="q-pa-md q-gutter-sm">
+      <q-breadcrumbs gutter="xs">
+        <q-breadcrumbs-el label="Home" to="/" />
+        <q-breadcrumbs-el label="Storymoji" to="/storymoji" />
+        <q-breadcrumbs-el label="Multiplayer" to="/storymoji/multi" />
+        <q-breadcrumbs-el label="Game" />
+      </q-breadcrumbs>
+    </div>
+
+    <template>
+      <div class="flex flex-center content-center fit">
+        <StoryPlayer
+          v-show="isHost || player.playerID === $store.state.userInfo.id"
+          v-for="player in players"
+          :key="player.id"
+          :number="game.dice"
+          :id="player.id"
+          :name="player.name"
+          :items="player.gameItems"
+          :isHost="isHost"
+          @removePlayer="removePlayer(player.id)"
+          @changeName="promptPlayerName = true"
+        ></StoryPlayer>
       </div>
 
-      <template v-if="isHost">
-        <div class="flex flex-center content-center fit">
-          <StoryPlayer
-            v-for="(player, idx) in players"
-            :key="idx + run_id"
-            :number="game.dice"
-            :index="idx"
-            :id="player.id"
-            @removePlayer="removePlayer"
-          ></StoryPlayer>
-        </div>
-
-        <!-- <q-footer bordered class="bg-grey-2 flex flex-center">
+      <!-- <q-footer bordered class="bg-grey-2 flex flex-center">
           <q-toolbar class="flex flex-center">
             <q-btn color="blue" flat size="lg" @click="startMultiplayer">New game</q-btn>
           </q-toolbar>
-        </q-footer>-->
-      </template>
-    </q-page>
+      </q-footer>-->
+    </template>
+    <q-dialog v-model="promptPlayerName" persistent>
+      <q-card style="min-width: 350px">
+        <q-card-section>
+          <div class="text-h6">Enter Your Name</div>
+        </q-card-section>
+
+        <q-card-section class="q-pt-none">
+          <q-input dense v-model="playerName" autofocus required />
+        </q-card-section>
+
+        <q-card-actions align="right" class="text-primary">
+          <q-btn flat label="Submit" v-close-popup @click="setUserName" />
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
   </q-page>
 </template>
 
 <script>
 import StoryPlayer from "./StoryPlayer.vue";
-import state from "@/store/";
 import Amplify, { API, graphqlOperation } from "aws-amplify";
-import actions from "@/store/actions";
 
 export default {
   name: "StoryMultiplayerGame",
@@ -53,74 +68,103 @@ export default {
       run_id: 0,
       started: false,
       // players: 0,
-      state: state,
       prompt: false,
       game_id: "",
       game: {
         players: {}
-      }
+      },
+      promptPlayerName: false,
+      playerName: "Anonymous"
     };
   },
   computed: {
     isHost() {
-      return this.game.ownerID === this.state.userInfo.id;
+      return this.game.ownerID === this.$store.state.userInfo.id;
     },
     players() {
-      const { items } = this.game.players;
-      return items ? items : [];
+      if (this.game.players) {
+        return this.game.players.items;
+      }
+      return [];
+    },
+    gamePlayer() {
+      if (this.game.players) {
+        return this.players.find(
+          item => item.playerID === this.$store.state.userInfo.id
+        );
+      }
+      return {};
+    },
+    name() {
+      return this.$store.state.userInfo.name;
     }
   },
   created() {
     console.log("created");
-    this.getGame().then(() => {
-      this.$emit("gameStarted");
-      actions.onCreateGamePlayer().subscribe({
-        next: data => {
-          this.getGame();
-          console.log("onCreateGamePlayer", data);
-        },
-        error: error => {
-          console.warn("onCreateGamePlayer", error);
+    this.getGame()
+      .then(() => {
+        if (!this.$store.state.userInfo.name) {
+          this.promptPlayerName = true;
         }
+        this.$emit("gameStarted");
+        this.$store.actions.onCreateGamePlayer().subscribe({
+          next: data => {
+            this.getGame();
+            console.log("onCreateGamePlayer", data);
+          },
+          error: error => {
+            console.warn("onCreateGamePlayer", error);
+          }
+        });
+        this.$store.actions.onUpdateGamePlayer().subscribe({
+          next: data => {
+            this.getGame();
+            console.log("onUpdateGamePlayer", data);
+          },
+          error: error => {
+            console.warn("onUpdateGamePlayer", error);
+          }
+        });
+      })
+      .catch(() => {
+        this.$router.push("/storymoji/multi/");
       });
-    });
   },
   mounted() {
     console.log("mounted");
-    const eventName = this.state.userInfo.id ? "gameStarted" : "sessionStarted";
+    const eventName = this.$store.state.userInfo.id
+      ? "gameStarted"
+      : "sessionStarted";
 
     this.$on(eventName, () => {
-      console.log(eventName);
+      console.log("event", eventName);
 
       if (
         !this.isHost &&
-        !this.players.find(item => item.playerID === this.state.userInfo.id)
+        !this.players.find(
+          item => item.playerID === this.$store.state.userInfo.id
+        )
       ) {
-        actions
-          .createGamePlayer({
-            playerID: this.state.userInfo.id,
-            gameID: this.id
-          })
-          .then(createGamePlayer => {
-            console.log("createGamePlayer", createGamePlayer);
-          });
+        this.createPlayer();
+        this.getGame();
       }
-      // actions.getGame({ id: this.id }).then(({ data: { getGame } }) => {
-      //   console.log("getGame", getGame);
-      //   this.game = getGame;
-
-      // });
     });
   },
   methods: {
     getGame() {
-      return actions.getGame({ id: this.id }).then(({ data: { getGame } }) => {
-        console.log("getGame", getGame);
-        this.game = getGame;
-      });
+      return this.$store.actions
+        .getGame({ id: this.id })
+        .then(({ data: { getGame } }) => {
+          console.log("getGame", getGame);
+          if (getGame) {
+            this.game = getGame;
+          } else {
+            return Promise.reject();
+          }
+        });
     },
     removePlayer(id) {
-      actions
+      this.$store.actions
         .deleteGamePlayer({
           id
         })
@@ -129,24 +173,43 @@ export default {
           this.getGame();
         });
     },
-    startMultiplayer() {
-      // this.started = true;
-      // this.$appSync
-      //   .mutate({
-      //     mutation: gql(mutations.createGame),
-      //     variables: {
-      //       input: {
-      //         ownerID: state.userInfo.sessionToken,
-      //         type: "storycards"
-      //       }
-      //     }
-      //   })
-      //   .then(result => {
-      //     console.log(result.data);
-      //   });
+    async createPlayer() {
+      let gameItems = await API.get("apid678e88e", "/emoji");
+
+      const createGamePlayer = await this.$store.actions.createGamePlayer({
+        playerID: this.$store.state.userInfo.id,
+        gameID: this.id,
+        name: this.name ? this.name : this.playerName,
+        gameItems
+      });
+      console.log("createGamePlayer", createGamePlayer);
     },
-    joinGame() {
-      // this.$router.push(`/storimoji/multi/${this.game_id}`)
+    setUserName() {
+      if (!this.isHost) {
+        this.$store.actions
+          .updatePlayer({
+            id: this.$store.state.userInfo.id,
+            name: this.playerName
+          })
+          .then(({ data: { updatePlayer } }) => {
+            console.log("updatePlayer", updatePlayer);
+            this.promptPlayerName = false;
+
+            this.$store.state.userInfo = updatePlayer;
+            localStorage.setItem(
+              "storymoji_session",
+              JSON.stringify(updatePlayer)
+            );
+
+            return this.$store.actions.updateGamePlayer({
+              id: this.gamePlayer.id,
+              name: this.playerName
+            });
+          })
+          .then(({ data: { updateGamePlayer } }) => {
+            console.log("updateGamePlayer", updateGamePlayer);
+          });
+      }
     }
   }
 };

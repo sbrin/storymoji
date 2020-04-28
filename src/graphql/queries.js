@@ -7,35 +7,17 @@ export const getGame = /* GraphQL */ `
       id
       ownerID
       type
-      player {
-        id
-        sessionToken
-        name
-        games {
-          nextToken
-        }
-      }
       players {
         items {
           id
           gameID
           playerID
+          gameItems
+          name
         }
         nextToken
       }
       secret
-      items {
-        id
-        gameType
-        playerID
-        player {
-          id
-          sessionToken
-          name
-        }
-        content
-        name
-      }
       dice
     }
   }
@@ -51,22 +33,10 @@ export const listGames = /* GraphQL */ `
         id
         ownerID
         type
-        player {
-          id
-          sessionToken
-          name
-        }
         players {
           nextToken
         }
         secret
-        items {
-          id
-          gameType
-          playerID
-          content
-          name
-        }
         dice
       }
       nextToken
@@ -84,6 +54,8 @@ export const getPlayer = /* GraphQL */ `
           id
           gameID
           playerID
+          gameItems
+          name
         }
         nextToken
       }

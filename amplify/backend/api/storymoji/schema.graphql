@@ -2,10 +2,8 @@ type Game @model @auth(rules: [{ allow: public }]) {
   id: ID!
   ownerID: ID!
   type: GameType!
-  player: Player @connection(fields: ["ownerID"])
   players: [GamePlayer] @connection(keyName: "byGame", fields: ["id"])
   secret: String
-  items: [Item]
   dice: Int
 }
 
@@ -18,6 +16,8 @@ type GamePlayer
   game: Game! @connection(fields: ["gameID"])
   playerID: ID!
   player: Player! @connection(fields: ["playerID"])
+  gameItems: [String]
+  name: String
 }
 
 type Player @model @auth(rules: [{ allow: public }]) {
@@ -25,15 +25,6 @@ type Player @model @auth(rules: [{ allow: public }]) {
   sessionToken: String
   name: String
   games: [GamePlayer] @connection(keyName: "byPlayer", fields: ["id"])
-}
-
-type Item @model(queries: null) {
-  id: ID!
-  gameType: GameType!
-  playerID: ID!
-  player: Player @connection(fields: ["playerID"])
-  content: String
-  name: String
 }
 
 enum GameType {

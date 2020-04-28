@@ -7,6 +7,20 @@
 		}
 	},
 	"api": {
+		"apid678e88e": {
+			"service": "API Gateway",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [
+				{
+					"category": "function",
+					"resourceName": "storymoji965c0416",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				}
+			]
+		},
 		"storymoji": {
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
@@ -16,7 +30,7 @@
 					"defaultAuthentication": {
 						"authenticationType": "API_KEY",
 						"apiKeyConfig": {
-							"description": "story_create_read",
+							"description": "",
 							"apiKeyExpirationDays": "365"
 						}
 					}

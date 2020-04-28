@@ -10,35 +10,17 @@ export const createGame = /* GraphQL */ `
       id
       ownerID
       type
-      player {
-        id
-        sessionToken
-        name
-        games {
-          nextToken
-        }
-      }
       players {
         items {
           id
           gameID
           playerID
+          gameItems
+          name
         }
         nextToken
       }
       secret
-      items {
-        id
-        gameType
-        playerID
-        player {
-          id
-          sessionToken
-          name
-        }
-        content
-        name
-      }
       dice
     }
   }
@@ -52,35 +34,17 @@ export const updateGame = /* GraphQL */ `
       id
       ownerID
       type
-      player {
-        id
-        sessionToken
-        name
-        games {
-          nextToken
-        }
-      }
       players {
         items {
           id
           gameID
           playerID
+          gameItems
+          name
         }
         nextToken
       }
       secret
-      items {
-        id
-        gameType
-        playerID
-        player {
-          id
-          sessionToken
-          name
-        }
-        content
-        name
-      }
       dice
     }
   }
@@ -94,35 +58,17 @@ export const deleteGame = /* GraphQL */ `
       id
       ownerID
       type
-      player {
-        id
-        sessionToken
-        name
-        games {
-          nextToken
-        }
-      }
       players {
         items {
           id
           gameID
           playerID
+          gameItems
+          name
         }
         nextToken
       }
       secret
-      items {
-        id
-        gameType
-        playerID
-        player {
-          id
-          sessionToken
-          name
-        }
-        content
-        name
-      }
       dice
     }
   }
@@ -139,22 +85,10 @@ export const createGamePlayer = /* GraphQL */ `
         id
         ownerID
         type
-        player {
-          id
-          sessionToken
-          name
-        }
         players {
           nextToken
         }
         secret
-        items {
-          id
-          gameType
-          playerID
-          content
-          name
-        }
         dice
       }
       playerID
@@ -166,6 +100,8 @@ export const createGamePlayer = /* GraphQL */ `
           nextToken
         }
       }
+      gameItems
+      name
     }
   }
 `;
@@ -181,22 +117,10 @@ export const updateGamePlayer = /* GraphQL */ `
         id
         ownerID
         type
-        player {
-          id
-          sessionToken
-          name
-        }
         players {
           nextToken
         }
         secret
-        items {
-          id
-          gameType
-          playerID
-          content
-          name
-        }
         dice
       }
       playerID
@@ -208,6 +132,8 @@ export const updateGamePlayer = /* GraphQL */ `
           nextToken
         }
       }
+      gameItems
+      name
     }
   }
 `;
@@ -223,22 +149,10 @@ export const deleteGamePlayer = /* GraphQL */ `
         id
         ownerID
         type
-        player {
-          id
-          sessionToken
-          name
-        }
         players {
           nextToken
         }
         secret
-        items {
-          id
-          gameType
-          playerID
-          content
-          name
-        }
         dice
       }
       playerID
@@ -250,6 +164,8 @@ export const deleteGamePlayer = /* GraphQL */ `
           nextToken
         }
       }
+      gameItems
+      name
     }
   }
 `;
@@ -267,6 +183,8 @@ export const createPlayer = /* GraphQL */ `
           id
           gameID
           playerID
+          gameItems
+          name
         }
         nextToken
       }
@@ -287,6 +205,8 @@ export const updatePlayer = /* GraphQL */ `
           id
           gameID
           playerID
+          gameItems
+          name
         }
         nextToken
       }
@@ -307,75 +227,11 @@ export const deletePlayer = /* GraphQL */ `
           id
           gameID
           playerID
+          gameItems
+          name
         }
         nextToken
       }
-    }
-  }
-`;
-export const createItem = /* GraphQL */ `
-  mutation CreateItem(
-    $input: CreateItemInput!
-    $condition: ModelItemConditionInput
-  ) {
-    createItem(input: $input, condition: $condition) {
-      id
-      gameType
-      playerID
-      player {
-        id
-        sessionToken
-        name
-        games {
-          nextToken
-        }
-      }
-      content
-      name
-    }
-  }
-`;
-export const updateItem = /* GraphQL */ `
-  mutation UpdateItem(
-    $input: UpdateItemInput!
-    $condition: ModelItemConditionInput
-  ) {
-    updateItem(input: $input, condition: $condition) {
-      id
-      gameType
-      playerID
-      player {
-        id
-        sessionToken
-        name
-        games {
-          nextToken
-        }
-      }
-      content
-      name
-    }
-  }
-`;
-export const deleteItem = /* GraphQL */ `
-  mutation DeleteItem(
-    $input: DeleteItemInput!
-    $condition: ModelItemConditionInput
-  ) {
-    deleteItem(input: $input, condition: $condition) {
-      id
-      gameType
-      playerID
-      player {
-        id
-        sessionToken
-        name
-        games {
-          nextToken
-        }
-      }
-      content
-      name
     }
   }
 `;

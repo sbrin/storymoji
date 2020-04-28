@@ -1,41 +1,39 @@
 <template>
   <q-card flat bordered class="flex dice-wrapper q-ma-md">
-    <q-btn
-      color="grey-2"
-      text-color="black"
-      round
-      flat
-      :disable="true"
-      class="dice-wrapper__number"
-      >{{ index + 1 }}</q-btn
+    <q-card-section
+      class="row items-center justify-between content-stretch full-width"
     >
-    <q-btn
-      color="grey-7"
-      round
-      flat
-      icon="more_vert"
-      class="dice-wrapper__button"
-    >
-      <q-menu cover auto-close>
-        <q-list>
-          <q-item clickable>
-            <q-item-section @click="rollTheDice">Roll the dice</q-item-section>
-          </q-item>
-          <q-item clickable>
-            <q-item-section @click="$emit('removePlayer', id)">Remove player</q-item-section>
-          </q-item>
-        </q-list>
-      </q-menu>
-    </q-btn>
-
-    <q-separator dark />
+      <div class="col col-grow">{{ name }}</div>
+      <div class="col-auto">
+        <q-btn color="grey-7" round flat icon="more_vert">
+          <q-menu cover auto-close>
+            <q-list>
+              <q-item clickable v-if="isHost">
+                <q-item-section @click="rollTheDice"
+                  >Roll the dice</q-item-section
+                >
+              </q-item>
+              <q-item clickable v-if="isHost">
+                <q-item-section @click="$emit('removePlayer', id)"
+                  >Remove player</q-item-section
+                >
+              </q-item>
+              <q-item clickable v-else-if="!isHost">
+                <q-item-section @click="$emit('changeName')"
+                  >Change name</q-item-section
+                >
+              </q-item>
+            </q-list>
+          </q-menu>
+        </q-btn>
+      </div>
+    </q-card-section>
 
     <q-card-section class="flex align-center justify-center text-center">
       <StoryDice
-        v-for="(dice, idx) in dice_set"
+        v-for="(dice, idx) in items"
         :key="idx + cid"
         :data="dice"
-        @replaceDice="replaceDice(idx)"
       ></StoryDice>
     </q-card-section>
   </q-card>
@@ -60,15 +58,25 @@ export default {
     number: {
       type: Number
     },
-    index: {
-      type: Number
+    name: {
+      type: String
+    },
+    items: {
+      type: Array,
+      default() {
+        return [];
+      }
+    },
+    isHost: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
     return {
       started: false,
-      cid: 0,
-      dice_set: []
+      cid: 0
+      // dice_set: []
     };
   },
   watch: {
@@ -82,7 +90,7 @@ export default {
     }
   },
   created() {
-    this.rollTheDice();
+    // this.rollTheDice();
   },
   methods: {
     rollTheDice() {

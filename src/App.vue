@@ -7,46 +7,53 @@
 <script>
 import { AmplifyEventBus } from "aws-amplify-vue";
 import { Auth } from "aws-amplify";
-import state from "@/store/";
-import actions from "@/store/actions";
-import { createPlayer } from "./graphql/mutations";
+import { version as APP_VERSION } from "../package.json";
+
+const USER_VERSION = localStorage.getItem("storymoji_version");
+
+if (USER_VERSION && APP_VERSION !== USER_VERSION) {
+  localStorage.setItem("storymoji_version", APP_VERSION);
+  window.location.reload(true);
+} else {
+  localStorage.setItem("storymoji_version", APP_VERSION);
+}
 
 export default {
   name: "App",
   components: {},
   data() {
     return {
-      isAuthorized: false,
-      state: state
+      isAuthorized: false
     };
   },
   async created() {
-    AmplifyEventBus.$on("authState", e => {
-      switch (e) {
-        case "signUp":
-          this.$router.push("/signup");
-          break;
+    if (this.userVersion && userVersion !== version)
+      AmplifyEventBus.$on("authState", e => {
+        switch (e) {
+          case "signUp":
+            this.$router.push("/signup");
+            break;
 
-        case "signIn":
-          break;
-        // this.$router.push("/login");
+          case "signIn":
+            break;
+          // this.$router.push("/login");
 
-        case "signedIn":
-          this.$router.push("/");
-          this.state.isAuthorized = true;
-          break;
-        case "confirmSignUp":
-          this.$router.push("/signup_confirm");
-          break;
+          case "signedIn":
+            this.$router.push("/");
+            this.$store.state.isAuthorized = true;
+            break;
+          case "confirmSignUp":
+            this.$router.push("/signup_confirm");
+            break;
 
-        case "forgotPassword":
-          break;
-        // this.$router.push("/login_forgot");
+          case "forgotPassword":
+            break;
+          // this.$router.push("/login_forgot");
 
-        default:
-      }
-      console.log(e);
-    });
+          default:
+        }
+        console.log(e);
+      });
 
     window.LOG_LEVEL = "DEBUG";
 
@@ -54,66 +61,32 @@ export default {
 
     if (storymoji_session && storymoji_session !== "undefined") {
       storymoji_session = JSON.parse(storymoji_session);
-      this.state.userInfo = storymoji_session;
+      this.$store.state.userInfo = storymoji_session;
 
       const {
         data: { getPlayer }
-      } = await actions.getPlayer({
+      } = await this.$store.actions.getPlayer({
         id: storymoji_session.id
       });
       if (getPlayer) {
-        this.state.userInfo = getPlayer;
+        this.$store.state.userInfo = getPlayer;
         console.log("getPlayer", getPlayer);
       } else {
         this.createPlayer();
       }
 
       this.$root.$emit("sessionStarted");
-
-      // actions
-      //   .getPlayer({
-      //     id: storymoji_session.id
-      //   })
-      //   .then(({ data: { getPlayer } }) => {
-      //     this.state.userInfo = getPlayer;
-      //     console.log("getPlayer", getPlayer);
-      //   })
-      //   .catch(() => actions.createPlayer({}))
-      //   .then(({ data: { createPlayer } }) => {
-      //     this.state.userInfo = createPlayer;
-      //     localStorage.setItem(
-      //       "storymoji_session",
-      //       JSON.stringify(createPlayer)
-      //     );
-      //     console.log("createPlayer", createPlayer);
-      //   });
     } else {
       this.createPlayer();
     }
-    // Auth.currentAuthenticatedUser()
-    //   .then(user => {
-    //     state.isAuthorized = true;
-    //     state.userInfo = user;
-    //   })
-    //   .catch(() => (state.isAuthorized = false));
-    // Auth.currentSession().then(res => {
-    //   console.log("currentSession", res);
-    // });
-    // Auth.currentUserPoolUser().then(res => {
-    //   console.log("currentUserPoolUser", res);
-    // });
-    // Auth.currentCredentials().then(res => {
-    //   console.log("currentCredentials", res.sessionToken);
-    //   state.userInfo = res;
-    // });
   },
   methods: {
     async createPlayer() {
       const {
         data: { createPlayer }
-      } = await actions.createPlayer({});
+      } = await this.$store.actions.createPlayer({});
       if (createPlayer) {
-        this.state.userInfo = createPlayer;
+        this.$store.state.userInfo = createPlayer;
         localStorage.setItem("storymoji_session", JSON.stringify(createPlayer));
         console.log("createPlayer", createPlayer);
       }
