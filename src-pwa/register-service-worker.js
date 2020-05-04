@@ -42,9 +42,13 @@ register(process.env.SERVICE_WORKER_FILE, {
       console.log('New content is available; please refresh.')
     }
 
-    navigator.serviceWorker.getRegistrations().then(function (registrations) {
-      for (let registration of registrations) {
-        registration.update()
+    Notify.create({
+      message: 'An updated version of application is available',
+      icon: 'cloud_download',
+      closeBtn: 'Update',
+      timeout: 10000,
+      onDismiss() {
+        location.reload(true)
       }
     })
 

@@ -1,22 +1,25 @@
 <template>
   <div id="q-app">
     <router-view />
+    <q-ajax-bar ref="bar" position="bottom" color="primary" size="10px" />
   </div>
 </template>
 
 <script>
 import { AmplifyEventBus } from "aws-amplify-vue";
 import { Auth } from "aws-amplify";
-import { version as APP_VERSION } from "../package.json";
+// import { version as APP_VERSION } from "../package.json";
 
-const USER_VERSION = localStorage.getItem("storymoji_version");
+// const USER_VERSION = localStorage.getItem("storymoji_version");
 
-if (USER_VERSION && APP_VERSION !== USER_VERSION) {
-  localStorage.setItem("storymoji_version", APP_VERSION);
-  window.location.reload(true);
-} else {
-  localStorage.setItem("storymoji_version", APP_VERSION);
-}
+// if (USER_VERSION && APP_VERSION !== USER_VERSION) {
+//   localStorage.setItem("storymoji_version", APP_VERSION);
+//   console.log("reloading");
+
+//   window.location.reload(true);
+// } else {
+//   localStorage.setItem("storymoji_version", APP_VERSION);
+// }
 
 export default {
   name: "App",
@@ -74,8 +77,6 @@ export default {
       } else {
         this.createPlayer();
       }
-
-      this.$root.$emit("sessionStarted");
     } else {
       this.createPlayer();
     }
@@ -89,6 +90,8 @@ export default {
         this.$store.state.userInfo = createPlayer;
         localStorage.setItem("storymoji_session", JSON.stringify(createPlayer));
         console.log("createPlayer", createPlayer);
+        this.$root.$emit("sessionStarted");
+        console.log("sessionStarted");
       }
     }
   }

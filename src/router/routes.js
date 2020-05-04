@@ -23,6 +23,15 @@ const routes = [{
       props: true,
     },
     {
+      path: "gba",
+      component: () => import("pages/gba/Index.vue"),
+    },
+    {
+      path: "gba/:id",
+      component: () => import("pages/gba/GbaGame.vue"),
+      props: true,
+    },
+    {
       path: "signup",
       component: () => import("pages/auth/AuthSignUp.vue")
     },

@@ -12,13 +12,24 @@ export const onCreateGame = /* GraphQL */ `
           id
           gameID
           playerID
-          gameItems
+          playerItems
           name
         }
         nextToken
       }
       secret
-      dice
+      size
+      gameItems {
+        id
+        content
+        status
+      }
+      gameTeams {
+        id
+        name
+        score
+      }
+      status
     }
   }
 `;
@@ -33,13 +44,24 @@ export const onUpdateGame = /* GraphQL */ `
           id
           gameID
           playerID
-          gameItems
+          playerItems
           name
         }
         nextToken
       }
       secret
-      dice
+      size
+      gameItems {
+        id
+        content
+        status
+      }
+      gameTeams {
+        id
+        name
+        score
+      }
+      status
     }
   }
 `;
@@ -54,13 +76,24 @@ export const onDeleteGame = /* GraphQL */ `
           id
           gameID
           playerID
-          gameItems
+          playerItems
           name
         }
         nextToken
       }
       secret
-      dice
+      size
+      gameItems {
+        id
+        content
+        status
+      }
+      gameTeams {
+        id
+        name
+        score
+      }
+      status
     }
   }
 `;
@@ -77,7 +110,18 @@ export const onCreateGamePlayer = /* GraphQL */ `
           nextToken
         }
         secret
-        dice
+        size
+        gameItems {
+          id
+          content
+          status
+        }
+        gameTeams {
+          id
+          name
+          score
+        }
+        status
       }
       playerID
       player {
@@ -88,7 +132,7 @@ export const onCreateGamePlayer = /* GraphQL */ `
           nextToken
         }
       }
-      gameItems
+      playerItems
       name
     }
   }
@@ -106,7 +150,18 @@ export const onUpdateGamePlayer = /* GraphQL */ `
           nextToken
         }
         secret
-        dice
+        size
+        gameItems {
+          id
+          content
+          status
+        }
+        gameTeams {
+          id
+          name
+          score
+        }
+        status
       }
       playerID
       player {
@@ -117,7 +172,7 @@ export const onUpdateGamePlayer = /* GraphQL */ `
           nextToken
         }
       }
-      gameItems
+      playerItems
       name
     }
   }
@@ -135,7 +190,18 @@ export const onDeleteGamePlayer = /* GraphQL */ `
           nextToken
         }
         secret
-        dice
+        size
+        gameItems {
+          id
+          content
+          status
+        }
+        gameTeams {
+          id
+          name
+          score
+        }
+        status
       }
       playerID
       player {
@@ -146,7 +212,7 @@ export const onDeleteGamePlayer = /* GraphQL */ `
           nextToken
         }
       }
-      gameItems
+      playerItems
       name
     }
   }
@@ -162,7 +228,7 @@ export const onCreatePlayer = /* GraphQL */ `
           id
           gameID
           playerID
-          gameItems
+          playerItems
           name
         }
         nextToken
@@ -181,7 +247,7 @@ export const onUpdatePlayer = /* GraphQL */ `
           id
           gameID
           playerID
-          gameItems
+          playerItems
           name
         }
         nextToken
@@ -200,7 +266,7 @@ export const onDeletePlayer = /* GraphQL */ `
           id
           gameID
           playerID
-          gameItems
+          playerItems
           name
         }
         nextToken

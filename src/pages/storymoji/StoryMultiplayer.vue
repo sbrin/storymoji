@@ -14,32 +14,15 @@
         <h4 class="q-mt-sm">Multiplayer</h4>
       </div>
 
-      <div class="q-pb-md flex column content-center">
-        <div class="q-gutter-md" style="min-width: 320px">
-          <!-- <q-field label="Players" filled stack-label>
-              <template v-slot:control>
-                <q-slider
-                  :value="players"
-                  @change="
-                    val => {
-                      players = val;
-                    }
-                  "
-                  :min="0"
-                  :max="12"
-                  label
-                  label-always
-                  class="q-mt-lg"
-                />
-              </template>
-          </q-field>-->
+      <div class="q-pb-md flex column content-center flex-center">
+        <div class="q-gutter-md" style="width: 300px">
           <q-field label="Cards" filled stack-label>
             <template v-slot:control>
               <q-slider
-                :value="dice"
+                :value="size"
                 @change="
                   val => {
-                    dice = val;
+                    size = val;
                   }
                 "
                 :min="0"
@@ -96,7 +79,7 @@ export default {
       run_id: 0,
       started: false,
       players: 3,
-      dice: 3,
+      size: 3,
       prompt: false,
       game_id: ""
     };
@@ -110,7 +93,7 @@ export default {
         .createGame({
           ownerID: this.$store.state.userInfo.id,
           type: "storycards",
-          dice: this.dice
+          size: this.size
         })
         .then(({ data: { createGame } }) => {
           this.started = true;

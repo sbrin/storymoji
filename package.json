@@ -1,6 +1,6 @@
 {
   "name": "dice-edu",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "Custom Dice for education",
   "productName": "Dice Edu",
   "cordovaId": "org.cordova.quasar.app",
@@ -12,22 +12,22 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.0.0",
-    "aws-amplify": "^3.0.7",
+    "@quasar/extras": "^1.7.0",
+    "aws-amplify": "^3.0.10",
     "aws-amplify-vue": "^2.1.1",
     "aws-appsync": "^3.0.3",
-    "axios": "^0.18.1",
+    "axios": "^0.19.2",
     "graphql-tag": "^2.10.3",
     "pug-plain-loader": "^1.0.0",
-    "quasar": "^1.0.0",
-    "vue-i18n": "^8.0.0"
+    "quasar": "^1.10.4",
+    "vue-i18n": "^8.17.4"
   },
   "devDependencies": {
-    "@quasar/app": "^1.0.0",
+    "@quasar/app": "^1.8.4",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^4.0.0",
-    "eslint-loader": "^3.0.3",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-vue": "^6.1.2"
   },
   "browserslist": [

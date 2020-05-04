@@ -12,13 +12,24 @@ export const getGame = /* GraphQL */ `
           id
           gameID
           playerID
-          gameItems
+          playerItems
           name
         }
         nextToken
       }
       secret
-      dice
+      size
+      gameItems {
+        id
+        content
+        status
+      }
+      gameTeams {
+        id
+        name
+        score
+      }
+      status
     }
   }
 `;
@@ -37,7 +48,18 @@ export const listGames = /* GraphQL */ `
           nextToken
         }
         secret
-        dice
+        size
+        gameItems {
+          id
+          content
+          status
+        }
+        gameTeams {
+          id
+          name
+          score
+        }
+        status
       }
       nextToken
     }
@@ -54,7 +76,7 @@ export const getPlayer = /* GraphQL */ `
           id
           gameID
           playerID
-          gameItems
+          playerItems
           name
         }
         nextToken

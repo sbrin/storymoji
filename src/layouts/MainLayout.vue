@@ -5,17 +5,17 @@
         <q-btn dense flat round icon="menu" @click="left = !left" />
 
         <q-toolbar-title>Roll The Story</q-toolbar-title>
-        <div v-if="!state.isAuthorized" class="flex items-center row">
+        <!-- <div v-if="!state.isAuthorized" class="flex items-center row">
           <q-btn flat label="Sign up" />
           <q-btn flat label="Log in" to="/login" />
         </div>
         <div v-else-if="state.isAuthorized" class="flex items-center row">
           <q-btn flat icon="exit_to_app" @click="signOut" title="Sign Out" />
-        </div>
+        </div> -->
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="left" bordered show-if-above :breakpoint="1024">
+    <q-drawer v-model="left" bordered>
       <q-scroll-area class="fit">
         <q-list v-for="(menuItem, index) in menuList" :key="index">
           <q-item
@@ -49,7 +49,7 @@ export default {
   components: {},
   data() {
     return {
-      left: true,
+      left: false,
       miniState: false,
       menuList: [
         {
@@ -64,7 +64,7 @@ export default {
         },
         {
           icon: "fas fa-bomb",
-          route: "/guns_bombs_angels",
+          route: "/gba",
           label: "Guns Bombs Angels"
         },
         {
