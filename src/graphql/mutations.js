@@ -26,13 +26,16 @@ export const createGame = /* GraphQL */ `
         id
         content
         status
+        state
       }
       gameTeams {
         id
         name
         score
+        status
       }
       status
+      preset
     }
   }
 `;
@@ -61,13 +64,16 @@ export const updateGame = /* GraphQL */ `
         id
         content
         status
+        state
       }
       gameTeams {
         id
         name
         score
+        status
       }
       status
+      preset
     }
   }
 `;
@@ -96,13 +102,16 @@ export const deleteGame = /* GraphQL */ `
         id
         content
         status
+        state
       }
       gameTeams {
         id
         name
         score
+        status
       }
       status
+      preset
     }
   }
 `;
@@ -127,13 +136,16 @@ export const createGamePlayer = /* GraphQL */ `
           id
           content
           status
+          state
         }
         gameTeams {
           id
           name
           score
+          status
         }
         status
+        preset
       }
       playerID
       player {
@@ -170,13 +182,16 @@ export const updateGamePlayer = /* GraphQL */ `
           id
           content
           status
+          state
         }
         gameTeams {
           id
           name
           score
+          status
         }
         status
+        preset
       }
       playerID
       player {
@@ -213,13 +228,16 @@ export const deleteGamePlayer = /* GraphQL */ `
           id
           content
           status
+          state
         }
         gameTeams {
           id
           name
           score
+          status
         }
         status
+        preset
       }
       playerID
       player {

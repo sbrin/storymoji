@@ -83,7 +83,7 @@
 import StoryPlayer from "./StoryPlayer.vue";
 
 export default {
-  name: "PageIndex",
+  name: "StorySolo",
   components: {
     StoryPlayer
   },

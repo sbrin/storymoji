@@ -63,7 +63,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-storymoji-storymoji-105301-deployment",
-					"S3Key": "amplify-builds/storymoji965c0416-76655a5576496173626c-build.zip"
+					"S3Key": "amplify-builds/storymoji965c0416-5739434166547079312f-build.zip"
 				}
 			}
 		},

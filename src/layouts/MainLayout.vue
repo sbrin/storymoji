@@ -58,20 +58,25 @@ export default {
           label: "Storymoji"
         },
         {
-          icon: "view_module",
-          route: "/dominoes",
-          label: "Dominoes"
-        },
-        {
           icon: "fas fa-bomb",
           route: "/gba",
           label: "Guns Bombs Angels"
         },
         {
-          icon: "announcement",
-          route: "/taboo",
-          label: "Taboo"
+          icon: "fas fa-times",
+          route: "/tictactoe",
+          label: "Tic Tac Emoji"
         }
+        // {
+        //   icon: "view_module",
+        //   route: "/dominoes",
+        //   label: "Dominoes"
+        // },
+        // {
+        //   icon: "announcement",
+        //   route: "/taboo",
+        //   label: "Taboo"
+        // }
       ],
       state: state
     };
