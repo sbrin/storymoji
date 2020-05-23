@@ -32,6 +32,15 @@ const routes = [{
       props: true,
     },
     {
+      path: "tictactoe",
+      component: () => import("pages/tictactoe/Index.vue"),
+    },
+    {
+      path: "tictactoe/:id",
+      component: () => import("pages/tictactoe/TictactoeGame.vue"),
+      props: true,
+    },
+    {
       path: "signup",
       component: () => import("pages/auth/AuthSignUp.vue")
     },

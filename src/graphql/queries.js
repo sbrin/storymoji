@@ -23,13 +23,16 @@ export const getGame = /* GraphQL */ `
         id
         content
         status
+        state
       }
       gameTeams {
         id
         name
         score
+        status
       }
       status
+      preset
     }
   }
 `;
@@ -53,13 +56,16 @@ export const listGames = /* GraphQL */ `
           id
           content
           status
+          state
         }
         gameTeams {
           id
           name
           score
+          status
         }
         status
+        preset
       }
       nextToken
     }

@@ -65,7 +65,8 @@
 
 <script>
 import StoryPlayer from "./StoryPlayer.vue";
-import Amplify, { API, graphqlOperation } from "aws-amplify";
+import { API } from "aws-amplify";
+import unsubscribe from "@/mixins/unsubscribe";
 
 export default {
   name: "StoryMultiplayerGame",
@@ -91,6 +92,7 @@ export default {
       playerName: "Anonymous"
     };
   },
+  mixins: [unsubscribe],
   computed: {
     isHost() {
       if (
@@ -166,7 +168,7 @@ export default {
           this.promptPlayerName = true;
         }
         this.$emit("sessionStarted");
-        this.subsctibeToChanges();
+        this.subscribeToChanges();
       })
       .catch(e => {
         console.log(e);
@@ -194,7 +196,6 @@ export default {
         })
         .then(res => {
           console.log("deleteGamePlayer", res);
-          this.getGame();
         });
     },
     async createGamePlayer() {
@@ -236,46 +237,52 @@ export default {
           console.log("updateGamePlayer", updateGamePlayer);
         });
     },
-    subsctibeToChanges() {
-      this.$store.actions
-        .onCreateGamePlayer({
-          gameID: this.game.id
-        })
-        .subscribe({
-          next: data => {
-            this.getGame();
-            console.log("onCreateGamePlayer", data);
-          },
-          error: error => {
-            console.warn("onCreateGamePlayer", error);
-          }
-        });
-      this.$store.actions
-        .onUpdateGamePlayer({
-          gameID: this.game.id
-        })
-        .subscribe({
-          next: data => {
-            this.getGame();
-            console.log("onUpdateGamePlayer", data);
-          },
-          error: error => {
-            console.warn("onUpdateGamePlayer", error);
-          }
-        });
-      this.$store.actions
-        .onDeleteGamePlayer({
-          gameID: this.game.id
-        })
-        .subscribe({
-          next: data => {
-            this.getGame();
-            console.log("onDeleteGamePlayer", data);
-          },
-          error: error => {
-            console.warn("onDeleteGamePlayer", error);
-          }
-        });
+    subscribeToChanges() {
+      this.unsubscribe.push(
+        this.$store.actions
+          .onCreateGamePlayer({
+            gameID: this.game.id
+          })
+          .subscribe({
+            next: data => {
+              this.getGame();
+              console.log("onCreateGamePlayer", data);
+            },
+            error: error => {
+              console.warn("onCreateGamePlayer", error);
+            }
+          })
+      );
+      this.unsubscribe.push(
+        this.$store.actions
+          .onUpdateGamePlayer({
+            gameID: this.game.id
+          })
+          .subscribe({
+            next: data => {
+              this.getGame();
+              console.log("onUpdateGamePlayer", data);
+            },
+            error: error => {
+              console.warn("onUpdateGamePlayer", error);
+            }
+          })
+      );
+      this.unsubscribe.push(
+        this.$store.actions
+          .onDeleteGamePlayer({
+            gameID: this.game.id
+          })
+          .subscribe({
+            next: data => {
+              this.getGame();
+              console.log("onDeleteGamePlayer", data);
+            },
+            error: error => {
+              console.warn("onDeleteGamePlayer", error);
+            }
+          })
+      );
     }
   }
 };

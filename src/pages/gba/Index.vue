@@ -38,17 +38,17 @@ export default {
             {
               id: 1,
               name: "Team 1",
-              score: 5
+              score: size
             },
             {
               id: 2,
               name: "Team 2",
-              score: 5
+              score: size
             },
             {
               id: 3,
               name: "Team 3",
-              score: 5
+              score: size
             }
           ]
         })
